@@ -1,0 +1,10 @@
+var clover = new Object();
+
+// JSON: {classes : [{name, id, sl, el,  methods : [{sl, el}, ...]}, ...]}
+clover.pageData = {"classes":[{"el":91,"id":11483,"methods":[{"el":54,"sc":5,"sl":51},{"el":74,"sc":5,"sl":65},{"el":89,"sc":5,"sl":76}],"name":"AliasFactory","sl":46}]}
+
+// JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
+clover.testTargets = {"test_210":{"methods":[{"sl":65},{"sl":76}],"name":"testCommandChars","pass":true,"statements":[{"sl":66},{"sl":67},{"sl":68},{"sl":69},{"sl":72},{"sl":79},{"sl":82},{"sl":83},{"sl":84},{"sl":88}]},"test_53":{"methods":[{"sl":65},{"sl":76}],"name":"testSimpleAlias","pass":true,"statements":[{"sl":66},{"sl":67},{"sl":68},{"sl":69},{"sl":72},{"sl":79},{"sl":82},{"sl":83},{"sl":84},{"sl":88}]},"test_601":{"methods":[{"sl":65},{"sl":76}],"name":"testMultilineResponse","pass":true,"statements":[{"sl":66},{"sl":67},{"sl":68},{"sl":69},{"sl":72},{"sl":79},{"sl":82},{"sl":83},{"sl":84},{"sl":85},{"sl":88}]},"test_667":{"methods":[{"sl":65},{"sl":76}],"name":"testCommandAndSilenceChars","pass":true,"statements":[{"sl":66},{"sl":67},{"sl":68},{"sl":69},{"sl":72},{"sl":79},{"sl":82},{"sl":83},{"sl":84},{"sl":85},{"sl":88}]},"test_80":{"methods":[{"sl":65},{"sl":76}],"name":"testSilenceChars","pass":true,"statements":[{"sl":66},{"sl":67},{"sl":68},{"sl":69},{"sl":72},{"sl":79},{"sl":82},{"sl":83},{"sl":84},{"sl":88}]}}
+
+// JSON: { lines : [{tests : [testid1, testid2, testid3, ...]}, ...]};
+clover.srcFileLines = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [80, 601, 53, 210, 667], [80, 601, 53, 210, 667], [80, 601, 53, 210, 667], [80, 601, 53, 210, 667], [80, 601, 53, 210, 667], [], [], [80, 601, 53, 210, 667], [], [], [], [80, 601, 53, 210, 667], [], [], [80, 601, 53, 210, 667], [], [], [80, 601, 53, 210, 667], [80, 601, 53, 210, 667], [80, 601, 53, 210, 667], [601, 667], [], [], [80, 601, 53, 210, 667], [], [], []]

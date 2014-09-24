@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    
+    
+    <link rel="SHORTCUT ICON" href="../../../img/clover.ico" />
+
+    <link rel="stylesheet" href="../../../aui/css/aui.min.css" media="all"/>
+    <link rel="stylesheet" href="../../../aui/css/aui-experimental.min.css" media="all"/>
+    <!--[if IE 9]><link rel="stylesheet" href="../../../aui/css/aui-ie9.min.css" media="all"/><![endif]-->
+
+    <style type="text/css" media="all">
+        @import url('../../../style.css');
+        @import url('../../../jstree/jstree.styles.css');
+        @import url('../../../tree.css');
+        
+    </style>
+
+    <script src="../../../jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="../../../jstree/jstree.min.js" type="text/javascript"></script>
+    <script src="../../../aui/js/aui.min.js" type="text/javascript"></script>
+    <script src="../../../aui/js/aui-experimental.min.js" type="text/javascript"></script>
+    <script src="../../../aui/js/aui-soy.min.js" type="text/javascript"></script>
+
+    <script src="../../../package-nodes-tree.js" type="text/javascript"></script>
+    <script src="../../../clover.js" type="text/javascript"></script>
+    <script src="../../../cloud.js" type="text/javascript"></script>
+    <script src="../../../help.js" type="text/javascript"></script>
+    <script src="../../../overlibmws.js" type="text/javascript"><!-- overLIB (c) Erik Bosrup --></script>
+    <script src="../../../overlibmws_shadow.js" type="text/javascript"></script>
+    <script src="../../../sorttable.js" type="text/javascript"></script>
+    <script src="../../../utils.js" type="text/javascript"></script>
+
+            <title>dmdirc</title>
+    </head>
+
+<body  >
+    <div id="page">
+        
+        
+
+
+<header id="header" role="banner">
+    <nav class="aui-header aui-dropdown2-trigger-group" role="navigation">
+        <div class="aui-header-inner">
+            <div class="aui-header-primary">
+                <h1 id="logo" class="aui-header-logo aui-header-logo-clover">
+                    <a href="http://www.atlassian.com/clover" title="Open Atlassian Clover home page"><span class="aui-header-logo-device">Clover</span></a>
+                </h1>
+                            </div>
+            <div class="aui-header-secondary">
+                <ul class="aui-nav">
+                    <li id="system-help-menu">
+                        <a class="aui-nav-link" title="Open online Clover documentation" target="_blank"
+                           href="https://confluence.atlassian.com/display/CLOVER/Clover+Documentation+Home">
+                            <span class="aui-icon aui-icon-small aui-iconfont-help">&#160;Help</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+        
+        <div class="aui-page-panel">
+            <div class="aui-page-panel-inner">
+                <div class="aui-page-panel-nav aui-page-panel-nav-clover">
+                    
+
+<div class="aui-page-header-inner" style="margin-bottom: 20px;">
+    <div class="aui-page-header-image">
+                <div class="aui-avatar aui-avatar-large aui-avatar-project">
+            <div class="aui-avatar-inner">
+                                    <img src="../../../img/clover_logo_large.png" alt="Clover icon"/>
+                            </div>
+        </div>
+            </div>
+    <div class="aui-page-header-main" >
+        <h1>
+                                        dmdirc
+                                </h1>
+    </div>
+</div>
+
+<nav class="aui-navgroup aui-navgroup-vertical">
+    <div class="aui-navgroup-inner">
+                                            <ul class="aui-nav">
+                <li class="">
+                    <a href="../../../dashboard.html">Project overview</a>
+                </li>
+            </ul>
+        
+                <div class="aui-nav-heading packages-nav-heading">
+            <strong>Packages</strong>
+        </div>
+        <ul class="aui-nav project-packages">
+            <li>
+                <form method="get" action="#" class="aui package-filter-container">
+                    <input type="text" autocomplete="off" class="package-filter text" placeholder="Type and press enter to filter packages..." name="package-filter" id="package-filter" title="Type package name (or part of it) and press enter"/>
+                </form>
+                <p class="package-filter-message package-filter-search-message hidden">
+                    <small>Searching...</small>
+                </p>
+                <p class="package-filter-message package-filter-results-message hidden">
+                    <small><span class="package-filter-results-total">1234</span> <span class="package-filter-results-word">results</span> found.</small>
+                </p>
+                <p class="package-filter-message package-filter-no-results-message hidden">
+                    <small>No results found.</small>
+                </p>
+                <p class="package-filter-message package-filter-partial-results-message hidden">
+                    <small>Showing first <span class="package-filter-results-number">24</span> of
+                        <span class="package-filter-results-total">1234</span> results.</small>
+                </p>
+            </li>
+                                                <div class="packages-tree-wrapper" data-root-relative="../../../" data-package-name="com.dmdirc.events">
+                <div class="packages-tree-container"></div>
+                <div class="packages-tree-lozenges"></div>
+            </div>
+        </ul>
+        
+            </div>
+</nav>                </div>
+                <section class="aui-page-panel-content">
+
+                    
+                    <ol class="aui-nav aui-nav-breadcrumbs">
+            
+        <li><a href="../../../dashboard.html">Project Clover database Wed Sep 24 2014 15:37:00 BST</a></li> 
+    </ol>
+    
+<h1 class="aui-h2-clover">
+            Package com.dmdirc.events
+    </h1>
+<div class="aui-tabs horizontal-tabs">
+            <ul class="tabs-menu">
+                <li class="menu-item ">
+            <a href="pkg-summary.html"><strong>Application code</strong></a>
+        </li>
+                    <li class="menu-item active-tab">
+            <a href="top-risks.html"><strong>Top risks</strong></a>
+        </li>
+        <li class="menu-item ">
+            <a href="quick-wins.html"><strong>Quick wins</strong></a>
+        </li>
+                            </ul>
+    <div class="tabs-pane active-pane" id="tabs-first">
+
+        <div>&#160;</div>
+
+        
+
+
+                        <div style="text-align: right; margin-bottom: 10px">
+            
+            
+                                    <button class="aui-button aui-button-subtle" id="popupHelp">
+    <span class="aui-icon aui-icon-small aui-iconfont-help"></span>&#160;How to read this chart
+</button>
+<script>
+    AJS.InlineDialog(AJS.$("#popupHelp"), "helpDialog",
+            function(content, trigger, showPopup) {
+                    content.css({"padding":"20px"}).html(
+                    '<h2>Top Risks</h2>' +
+                    '<p><p>The Top Risks tag cloud highlights those classes that are the most complex, yet are the least covered by your tests. The larger and redder the class, the greater the risk that class poses for your project or package. </p><p>Font size represents the Average Method Complexity metric, while the colour represents the Total Coverage metric (vivid red for 0%, pale red for 100%).</p></p>');
+                showPopup();
+                return false;
+            },
+            {
+                width: 600
+            }
+    );
+</script>        </div>
+
+        
+
+<div style="padding: 20px; border: 1px solid #cccccc; background-color: #f5f5f5; border-radius: 3px">
+   
+          <div id="shallowPackageCloud"  >
+                          
+    
+        
+    
+            <a href="../events/ActionDeletedEvent.html" class="tag"
+            style="font-size: 48px;color:#de8a83"
+            title="Average Method Complexity - 1 , Coverage - 42.9% ">ActionDeletedEvent</a>
+            
+    
+            <a href="../events/ActionEvent.html" class="tag"
+            style="font-size: 48px;color:#de8a83"
+            title="Average Method Complexity - 1 , Coverage - 50% ">ActionEvent</a>
+            
+    
+            <a href="../events/BaseChannelActionEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">BaseChannelActionEvent</a>
+            
+    
+            <a href="../events/BaseChannelMessageEvent.html" class="tag"
+            style="font-size: 48px;color:#de8a83"
+            title="Average Method Complexity - 1 , Coverage - 50% ">BaseChannelMessageEvent</a>
+            
+    
+            <a href="../events/BaseChannelTextEvent.html" class="tag"
+            style="font-size: 48px;color:#de8a83"
+            title="Average Method Complexity - 1 , Coverage - 33.3% ">BaseChannelTextEvent</a>
+            
+    
+            <a href="../events/BaseQueryActionEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">BaseQueryActionEvent</a>
+            
+    
+            <a href="../events/BaseQueryMessageEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">BaseQueryMessageEvent</a>
+            
+    
+            <a href="../events/BaseQueryTextEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">BaseQueryTextEvent</a>
+            
+    
+            <a href="../events/ChannelActionEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelActionEvent</a>
+            
+    
+            <a href="../events/ChannelClosedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelClosedEvent</a>
+            
+    
+            <a href="../events/ChannelCtcpEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelCtcpEvent</a>
+            
+    
+            <a href="../events/ChannelDisplayableEvent.html" class="tag"
+            style="font-size: 48px;color:#d7675d"
+            title="Average Method Complexity - 1 , Coverage - 16.7% ">ChannelDisplayableEvent</a>
+            
+    
+            <a href="../events/ChannelDisplayableUserEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelDisplayableUserEvent</a>
+            
+    
+            <a href="../events/ChannelEvent.html" class="tag"
+            style="font-size: 48px;color:#de8a83"
+            title="Average Method Complexity - 1 , Coverage - 28.6% ">ChannelEvent</a>
+            
+    
+            <a href="../events/ChannelGotnamesEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelGotnamesEvent</a>
+            
+    
+            <a href="../events/ChannelGottopicEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelGottopicEvent</a>
+            
+    
+            <a href="../events/ChannelJoinEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelJoinEvent</a>
+            
+    
+            <a href="../events/ChannelKickEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelKickEvent</a>
+            
+    
+            <a href="../events/ChannelListmodesretrievedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelListmodesretrievedEvent</a>
+            
+    
+            <a href="../events/ChannelMessageEvent.html" class="tag"
+            style="font-size: 48px;color:#de8a83"
+            title="Average Method Complexity - 1 , Coverage - 50% ">ChannelMessageEvent</a>
+            
+    
+            <a href="../events/ChannelModeNoticeEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelModeNoticeEvent</a>
+            
+    
+            <a href="../events/ChannelModechangeEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelModechangeEvent</a>
+            
+    
+            <a href="../events/ChannelModesdiscoveredEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelModesdiscoveredEvent</a>
+            
+    
+            <a href="../events/ChannelNickchangeEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelNickchangeEvent</a>
+            
+    
+            <a href="../events/ChannelNoticeEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelNoticeEvent</a>
+            
+    
+            <a href="../events/ChannelNotopicEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelNotopicEvent</a>
+            
+    
+            <a href="../events/ChannelOpenedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelOpenedEvent</a>
+            
+    
+            <a href="../events/ChannelPartEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelPartEvent</a>
+            
+    
+            <a href="../events/ChannelQuitEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelQuitEvent</a>
+            
+    
+            <a href="../events/ChannelSelfActionEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelSelfActionEvent</a>
+            
+    
+            <a href="../events/ChannelSelfMessageEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelSelfMessageEvent</a>
+            
+    
+            <a href="../events/ChannelTopicChangeEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelTopicChangeEvent</a>
+            
+    
+            <a href="../events/ChannelUserAwayEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelUserAwayEvent</a>
+            
+    
+            <a href="../events/ChannelUserBackEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelUserBackEvent</a>
+            
+    
+            <a href="../events/ChannelUserEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelUserEvent</a>
+            
+    
+            <a href="../events/ChannelUsermodechangeEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ChannelUsermodechangeEvent</a>
+            
+    
+            <a href="../events/ClientFrameChangedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ClientFrameChangedEvent</a>
+            
+    
+            <a href="../events/ClientKeyPressedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ClientKeyPressedEvent</a>
+            
+    
+            <a href="../events/ClientLineAddedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ClientLineAddedEvent</a>
+            
+    
+            <a href="../events/ClientPopupGeneratedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ClientPopupGeneratedEvent</a>
+            
+    
+            <a href="../events/ClientPrefsOpenedEvent.html" class="tag"
+            style="font-size: 48px;color:#de8a83"
+            title="Average Method Complexity - 1 , Coverage - 50% ">ClientPrefsOpenedEvent</a>
+            
+    
+            <a href="../events/ClientUserInputEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ClientUserInputEvent</a>
+            
+    
+            <a href="../events/ConnectionPrefsRequestedEvent.html" class="tag"
+            style="font-size: 48px;color:#de8a83"
+            title="Average Method Complexity - 1 , Coverage - 50% ">ConnectionPrefsRequestedEvent</a>
+            
+    
+            <a href="../events/DMDircEvent.html" class="tag"
+            style="font-size: 48px;color:#e6aea9"
+            title="Average Method Complexity - 1 , Coverage - 66.7% ">DMDircEvent</a>
+            
+    
+            <a href="../events/DisplayPropertyMap.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">DisplayPropertyMap</a>
+            
+    
+            <a href="../events/ErrorEvent.html" class="tag"
+            style="font-size: 48px;color:#de8a83"
+            title="Average Method Complexity - 1 , Coverage - 50% ">ErrorEvent</a>
+            
+    
+            <a href="../events/FirstRunEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">FirstRunEvent</a>
+            
+    
+            <a href="../events/FrameChangedEvent.html" class="tag"
+            style="font-size: 48px;color:#de8a83"
+            title="Average Method Complexity - 1 , Coverage - 50% ">FrameChangedEvent</a>
+            
+    
+            <a href="../events/FrameClosingEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">FrameClosingEvent</a>
+            
+    
+            <a href="../events/FrameComponentAddedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">FrameComponentAddedEvent</a>
+            
+    
+            <a href="../events/FrameComponentEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">FrameComponentEvent</a>
+            
+    
+            <a href="../events/FrameComponentRemovedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">FrameComponentRemovedEvent</a>
+            
+    
+            <a href="../events/FrameEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">FrameEvent</a>
+            
+    
+            <a href="../events/FrameIconChangedEvent.html" class="tag"
+            style="font-size: 48px;color:#e6aea9"
+            title="Average Method Complexity - 1 , Coverage - 60% ">FrameIconChangedEvent</a>
+            
+    
+            <a href="../events/FrameNameChangedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">FrameNameChangedEvent</a>
+            
+    
+            <a href="../events/FrameTitleChangedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">FrameTitleChangedEvent</a>
+            
+    
+            <a href="../events/GroupChatPrefsRequestedEvent.html" class="tag"
+            style="font-size: 48px;color:#de8a83"
+            title="Average Method Complexity - 1 , Coverage - 50% ">GroupChatPrefsRequestedEvent</a>
+            
+    
+            <a href="../events/LinkChannelClickedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">LinkChannelClickedEvent</a>
+            
+    
+            <a href="../events/LinkEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">LinkEvent</a>
+            
+    
+            <a href="../events/LinkNicknameClickedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">LinkNicknameClickedEvent</a>
+            
+    
+            <a href="../events/LinkUrlClickedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">LinkUrlClickedEvent</a>
+            
+    
+            <a href="../events/NotificationClearedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">NotificationClearedEvent</a>
+            
+    
+            <a href="../events/NotificationEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">NotificationEvent</a>
+            
+    
+            <a href="../events/NotificationSetEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">NotificationSetEvent</a>
+            
+    
+            <a href="../events/PluginEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">PluginEvent</a>
+            
+    
+            <a href="../events/PluginLoadedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">PluginLoadedEvent</a>
+            
+    
+            <a href="../events/PluginUnloadedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">PluginUnloadedEvent</a>
+            
+    
+            <a href="../events/QueryActionEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">QueryActionEvent</a>
+            
+    
+            <a href="../events/QueryClosedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">QueryClosedEvent</a>
+            
+    
+            <a href="../events/QueryDisplayableEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">QueryDisplayableEvent</a>
+            
+    
+            <a href="../events/QueryEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">QueryEvent</a>
+            
+    
+            <a href="../events/QueryMessageEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">QueryMessageEvent</a>
+            
+    
+            <a href="../events/QueryNickchangeEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">QueryNickchangeEvent</a>
+            
+    
+            <a href="../events/QueryOpenedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">QueryOpenedEvent</a>
+            
+    
+            <a href="../events/QueryQuitEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">QueryQuitEvent</a>
+            
+    
+            <a href="../events/QuerySelfActionEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">QuerySelfActionEvent</a>
+            
+    
+            <a href="../events/QuerySelfMessageEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">QuerySelfMessageEvent</a>
+            
+    
+            <a href="../events/ServerAuthnoticeEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerAuthnoticeEvent</a>
+            
+    
+            <a href="../events/ServerAwayEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerAwayEvent</a>
+            
+    
+            <a href="../events/ServerBackEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerBackEvent</a>
+            
+    
+            <a href="../events/ServerConnectErrorEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerConnectErrorEvent</a>
+            
+    
+            <a href="../events/ServerConnectedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerConnectedEvent</a>
+            
+    
+            <a href="../events/ServerConnectingEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerConnectingEvent</a>
+            
+    
+            <a href="../events/ServerCtcpEvent.html" class="tag"
+            style="font-size: 48px;color:#e6aea9"
+            title="Average Method Complexity - 1 , Coverage - 65% ">ServerCtcpEvent</a>
+            
+    
+            <a href="../events/ServerCtcprEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerCtcprEvent</a>
+            
+    
+            <a href="../events/ServerDisconnectedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerDisconnectedEvent</a>
+            
+    
+            <a href="../events/ServerDisplayableEvent.html" class="tag"
+            style="font-size: 48px;color:#de8a83"
+            title="Average Method Complexity - 1 , Coverage - 50% ">ServerDisplayableEvent</a>
+            
+    
+            <a href="../events/ServerErrorEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerErrorEvent</a>
+            
+    
+            <a href="../events/ServerEvent.html" class="tag"
+            style="font-size: 48px;color:#de8a83"
+            title="Average Method Complexity - 1 , Coverage - 28.6% ">ServerEvent</a>
+            
+    
+            <a href="../events/ServerGotpingEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerGotpingEvent</a>
+            
+    
+            <a href="../events/ServerInvitereceivedEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerInvitereceivedEvent</a>
+            
+    
+            <a href="../events/ServerMotdendEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerMotdendEvent</a>
+            
+    
+            <a href="../events/ServerMotdlineEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerMotdlineEvent</a>
+            
+    
+            <a href="../events/ServerMotdstartEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerMotdstartEvent</a>
+            
+    
+            <a href="../events/ServerNickchangeEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerNickchangeEvent</a>
+            
+    
+            <a href="../events/ServerNopingEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerNopingEvent</a>
+            
+    
+            <a href="../events/ServerNoticeEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerNoticeEvent</a>
+            
+    
+            <a href="../events/ServerNumericEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerNumericEvent</a>
+            
+    
+            <a href="../events/ServerPingsentEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerPingsentEvent</a>
+            
+    
+            <a href="../events/ServerServernoticeEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerServernoticeEvent</a>
+            
+    
+            <a href="../events/ServerUnknownactionEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerUnknownactionEvent</a>
+            
+    
+            <a href="../events/ServerUnknownmessageEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerUnknownmessageEvent</a>
+            
+    
+            <a href="../events/ServerUnknownnoticeEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerUnknownnoticeEvent</a>
+            
+    
+            <a href="../events/ServerUsermodesEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerUsermodesEvent</a>
+            
+    
+            <a href="../events/ServerWalldesyncEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerWalldesyncEvent</a>
+            
+    
+            <a href="../events/ServerWallopsEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerWallopsEvent</a>
+            
+    
+            <a href="../events/ServerWallusersEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">ServerWallusersEvent</a>
+            
+    
+            <a href="../events/StatusBarComponentEvent.html" class="tag"
+            style="font-size: 48px;color:#de8a83"
+            title="Average Method Complexity - 1 , Coverage - 50% ">StatusBarComponentEvent</a>
+            
+    
+            <a href="../events/StatusBarMessageEvent.html" class="tag"
+            style="font-size: 48px;color:#de8a83"
+            title="Average Method Complexity - 1 , Coverage - 50% ">StatusBarMessageEvent</a>
+            
+    
+            <a href="../events/UnknownCommandEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">UnknownCommandEvent</a>
+            
+    
+            <a href="../events/UnknownURLEvent.html" class="tag"
+            style="font-size: 48px;color:#d04437"
+            title="Average Method Complexity - 1 , Coverage - 0% ">UnknownURLEvent</a>
+           </div>
+   </div>
+    </div> <!-- tabs-pane active-pane -->
+</div> <!-- aui-tabs horizontal-tabs -->
+
+                </section> <!-- class="aui-page-panel-content" -->
+            </div> <!-- class="aui-page-panel-inner" -->
+        </div> <!-- class="aui-page-panel" -->
+
+        <footer id="footer" role="contentinfo">
+    <section class="footer-body">
+        <ul>
+            <li>
+                Report generated by <a target="_new" href="http://www.atlassian.com/software/clover">Atlassian Clover</a> v 4.0.0
+                on Wed Sep 24 2014 15:37:03 BST using coverage data from Wed Sep 24 2014 15:37:00 BST.
+            </li>
+        </ul>
+        <ul>
+            <li>Clover: Open Source License registered to DMDirc. </li>
+        </ul>
+        <div id="footer-logo">
+            <a target="_blank" href="http://www.atlassian.com/">
+                Atlassian
+            </a>
+        </div>
+    </section>
+</footer>
+    </div> <!-- id="page" -->
+</body>
+</html>

@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    
+    
+    <link rel="SHORTCUT ICON" href="../../../img/clover.ico" />
+
+    <link rel="stylesheet" href="../../../aui/css/aui.min.css" media="all"/>
+    <link rel="stylesheet" href="../../../aui/css/aui-experimental.min.css" media="all"/>
+    <!--[if IE 9]><link rel="stylesheet" href="../../../aui/css/aui-ie9.min.css" media="all"/><![endif]-->
+
+    <style type="text/css" media="all">
+        @import url('../../../style.css');
+        @import url('../../../jstree/jstree.styles.css');
+        @import url('../../../tree.css');
+        
+    </style>
+
+    <script src="../../../jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="../../../jstree/jstree.min.js" type="text/javascript"></script>
+    <script src="../../../aui/js/aui.min.js" type="text/javascript"></script>
+    <script src="../../../aui/js/aui-experimental.min.js" type="text/javascript"></script>
+    <script src="../../../aui/js/aui-soy.min.js" type="text/javascript"></script>
+
+    <script src="../../../package-nodes-tree.js" type="text/javascript"></script>
+    <script src="../../../clover.js" type="text/javascript"></script>
+    <script src="../../../cloud.js" type="text/javascript"></script>
+    <script src="../../../help.js" type="text/javascript"></script>
+    <script src="../../../overlibmws.js" type="text/javascript"><!-- overLIB (c) Erik Bosrup --></script>
+    <script src="../../../overlibmws_shadow.js" type="text/javascript"></script>
+    <script src="../../../sorttable.js" type="text/javascript"></script>
+    <script src="../../../utils.js" type="text/javascript"></script>
+
+            <title>dmdirc</title>
+    </head>
+
+<body>
+    <div id="page">
+        
+        
+
+
+<header id="header" role="banner">
+    <nav class="aui-header aui-dropdown2-trigger-group" role="navigation">
+        <div class="aui-header-inner">
+            <div class="aui-header-primary">
+                <h1 id="logo" class="aui-header-logo aui-header-logo-clover">
+                    <a href="http://www.atlassian.com/clover" title="Open Atlassian Clover home page"><span class="aui-header-logo-device">Clover</span></a>
+                </h1>
+                            </div>
+            <div class="aui-header-secondary">
+                <ul class="aui-nav">
+                    <li id="system-help-menu">
+                        <a class="aui-nav-link" title="Open online Clover documentation" target="_blank"
+                           href="https://confluence.atlassian.com/display/CLOVER/Clover+Documentation+Home">
+                            <span class="aui-icon aui-icon-small aui-iconfont-help">&#160;Help</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+        
+        <div class="aui-page-panel">
+            <div class="aui-page-panel-inner">
+                <div class="aui-page-panel-nav aui-page-panel-nav-clover">
+                    
+
+<div class="aui-page-header-inner" style="margin-bottom: 20px;">
+    <div class="aui-page-header-image">
+                <div class="aui-avatar aui-avatar-large aui-avatar-project">
+            <div class="aui-avatar-inner">
+                                    <img src="../../../img/clover_logo_large.png" alt="Clover icon"/>
+                            </div>
+        </div>
+            </div>
+    <div class="aui-page-header-main" >
+        <h1>
+                                        dmdirc
+                                </h1>
+    </div>
+</div>
+
+<nav class="aui-navgroup aui-navgroup-vertical">
+    <div class="aui-navgroup-inner">
+                                            <ul class="aui-nav">
+                <li class="">
+                    <a href="../../../dashboard.html">Project overview</a>
+                </li>
+            </ul>
+        
+                <div class="aui-nav-heading packages-nav-heading">
+            <strong>Packages</strong>
+        </div>
+        <ul class="aui-nav project-packages">
+            <li>
+                <form method="get" action="#" class="aui package-filter-container">
+                    <input type="text" autocomplete="off" class="package-filter text" placeholder="Type and press enter to filter packages..." name="package-filter" id="package-filter" title="Type package name (or part of it) and press enter"/>
+                </form>
+                <p class="package-filter-message package-filter-search-message hidden">
+                    <small>Searching...</small>
+                </p>
+                <p class="package-filter-message package-filter-results-message hidden">
+                    <small><span class="package-filter-results-total">1234</span> <span class="package-filter-results-word">results</span> found.</small>
+                </p>
+                <p class="package-filter-message package-filter-no-results-message hidden">
+                    <small>No results found.</small>
+                </p>
+                <p class="package-filter-message package-filter-partial-results-message hidden">
+                    <small>Showing first <span class="package-filter-results-number">24</span> of
+                        <span class="package-filter-results-total">1234</span> results.</small>
+                </p>
+            </li>
+                                                <div class="packages-tree-wrapper" data-root-relative="../../../" data-package-name="com.dmdirc.updater">
+                <div class="packages-tree-container"></div>
+                <div class="packages-tree-lozenges"></div>
+            </div>
+        </ul>
+        
+            </div>
+</nav>                </div>
+                <section class="aui-page-panel-content">
+
+                    
+                    <div class="aui-page-header-main"><ol class="aui-nav aui-nav-breadcrumbs">
+    
+    <li><a href="../../../dashboard.html"> Project Clover database Wed Sep 24 2014 15:37:00 BST</a></li>
+     <li><a href="test-pkg-summary.html">Package com.dmdirc.updater</a></li>
+</ol></div>
+    
+<h1 class="aui-h2-clover">
+            
+        Class VersionTest
+    </h1>
+
+
+ 
+<div class="aui-tabs horizontal-tabs" id="tabs-file">
+    <ul class="tabs-menu">
+        <li class="menu-item">
+            <a href="VersionTest.html"><strong>Source file</strong></a>
+        </li>
+        <li class="menu-item active-tab">
+            <a href="#tabs-file-test-results"><strong>Test results</strong></a>
+        </li>
+    </ul>
+    <div class="tabs-pane aui-tabs-pane-100-pcnt active-pane" id="tabs-file-test-results">
+        <div>&#160;</div>
+
+
+
+
+<table id="testClassSummaryTable" class="aui">
+<thead>
+    <tr>
+        <th width="40%"><label>Class</label></th>
+        <th width="10%"><label title="Total number of tests (or test iterations) executed.">Tests</label></th>
+        <th width="10%"><label title="Number of failed tests">Fail</label></th>
+        <th width="10%"><label title="Number of test errors">Error</label></th>
+        <th width="10%">
+            <label title="The total time in seconds taken to run this set of tests.">Time (secs)</label>
+        </th>
+        <th width="20%"><label>% Tests Success</label></th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>VersionTest</td>
+        <td class="testPasses"><span class="sortValue">46</span>46</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td>0.002</td>
+        <td class="align-middle">
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+</tbody>
+</table>
+
+<div>&#160;</div>
+
+<table id="testClassTestsTable" class="aui aui-table-sortable">
+<thead>
+    <tr>
+        <th width="40%">
+            <label title="Tests (or test iterations) which were executed.">Tests</label>
+        </th>
+        <th width="10%"><label>Started</label></th>
+        <th width="10%"><label>Status</label></th>
+        <th width="10%">
+            <label title="The total time in seconds taken to run this set of tests.">Time (secs)</label>
+        </th>
+        <th width="30%"><label>Message</label></th>
+    </tr>
+</thead>
+<tbody>
+
+
+<tr>
+    <td><span class="sortValue">VersionTest.testGreaterNumericalVersionIsNewer</span><a href="VersionTest_testGreaterNumericalVersionIsNewer_ew.html">VersionTest.testGreaterNumericalVersionIsNewer</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387038</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testNumericalVersionsAreOlderThanStringVersions</span><a href="VersionTest_testNumericalVersionsAreOlderThanStringVersions_gs.html">VersionTest.testNumericalVersionsAreOlderThanStringVersions</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387037</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testHigherGitSuffixesAreNewer</span><a href="VersionTest_testHigherGitSuffixesAreNewer_k.html">VersionTest.testHigherGitSuffixesAreNewer</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387039</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testHashCodesEqualWhenIntVersionsEqual</span><a href="VersionTest_testHashCodesEqualWhenIntVersionsEqual_67.html">VersionTest.testHashCodesEqualWhenIntVersionsEqual</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387034</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testHashCodesEqualWhenStringVersionsEqual</span><a href="VersionTest_testHashCodesEqualWhenStringVersionsEqual_3v.html">VersionTest.testHashCodesEqualWhenStringVersionsEqual</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387033</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testReleaseCandidatesAreOlderThanReleasesWithMilestones</span><a href="VersionTest_testReleaseCandidatesAreOlderThanReleasesWithMilestones_4v.html">VersionTest.testReleaseCandidatesAreOlderThanReleasesWithMilestones</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387038</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testReleasesAreNewerThanReleaseCandidates</span><a href="VersionTest_testReleasesAreNewerThanReleaseCandidates_en.html">VersionTest.testReleasesAreNewerThanReleaseCandidates</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387033</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testEqualNumericalVersionsAreEqual</span><a href="VersionTest_testEqualNumericalVersionsAreEqual_9q.html">VersionTest.testEqualNumericalVersionsAreEqual</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387026</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testLowerStringVersionsAreOlder</span><a href="VersionTest_testLowerStringVersionsAreOlder_4n.html">VersionTest.testLowerStringVersionsAreOlder</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387028</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0.001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testLowerGitSuffixesAreOlder</span><a href="VersionTest_testLowerGitSuffixesAreOlder_5n.html">VersionTest.testLowerGitSuffixesAreOlder</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387032</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testIsInvalidWhenGivenInvalidGitHash</span><a href="VersionTest_testIsInvalidWhenGivenInvalidGitHash_f8.html">VersionTest.testIsInvalidWhenGivenInvalidGitHash</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387024</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testHigherSuffixesAreNewerWithMilestones</span><a href="VersionTest_testHigherSuffixesAreNewerWithMilestones_3y.html">VersionTest.testHigherSuffixesAreNewerWithMilestones</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387026</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testLowerStringVersionsAreOlderWithSuffixes</span><a href="VersionTest_testLowerStringVersionsAreOlderWithSuffixes_k2.html">VersionTest.testLowerStringVersionsAreOlderWithSuffixes</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387037</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testBetasAreOlderThanReleaseCandidatesWithMilestones</span><a href="VersionTest_testBetasAreOlderThanReleaseCandidatesWithMilestones_bc.html">VersionTest.testBetasAreOlderThanReleaseCandidatesWithMilestones</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387034</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testHigherStringVersionsAreNewer</span><a href="VersionTest_testHigherStringVersionsAreNewer_5k.html">VersionTest.testHigherStringVersionsAreNewer</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387028</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testBetasAreNewerThanAlphas</span><a href="VersionTest_testBetasAreNewerThanAlphas_ke.html">VersionTest.testBetasAreNewerThanAlphas</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387030</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testAlphasAreOlderThanBetas</span><a href="VersionTest_testAlphasAreOlderThanBetas_kg.html">VersionTest.testAlphasAreOlderThanBetas</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387025</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testEqualVersionsWithDifferentGitHashesAreEqual</span><a href="VersionTest_testEqualVersionsWithDifferentGitHashesAreEqual_cc.html">VersionTest.testEqualVersionsWithDifferentGitHashesAreEqual</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387033</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testReleasesAreNewerThanReleaseCandidatesWithMilestones</span><a href="VersionTest_testReleasesAreNewerThanReleaseCandidatesWithMilestones_dn.html">VersionTest.testReleasesAreNewerThanReleaseCandidatesWithMilestones</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387023</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testLongerStringVersionsAreNewer</span><a href="VersionTest_testLongerStringVersionsAreNewer_k4.html">VersionTest.testLongerStringVersionsAreNewer</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387036</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testIsInvalidWhenGivenOtherString</span><a href="VersionTest_testIsInvalidWhenGivenOtherString_2f.html">VersionTest.testIsInvalidWhenGivenOtherString</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387029</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testStringVersionsAreNewerThanNumericalVersions</span><a href="VersionTest_testStringVersionsAreNewerThanNumericalVersions_gr.html">VersionTest.testStringVersionsAreNewerThanNumericalVersions</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387032</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testReleaseCandidatesAreNewerThanBetas</span><a href="VersionTest_testReleaseCandidatesAreNewerThanBetas_ee.html">VersionTest.testReleaseCandidatesAreNewerThanBetas</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387025</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testAlphasAreNewerThanMilestones</span><a href="VersionTest_testAlphasAreNewerThanMilestones_i9.html">VersionTest.testAlphasAreNewerThanMilestones</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387034</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testToStringWhenGivenVersionString</span><a href="VersionTest_testToStringWhenGivenVersionString_5w.html">VersionTest.testToStringWhenGivenVersionString</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387037</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testEqualStringVersionsAreEqual</span><a href="VersionTest_testEqualStringVersionsAreEqual_kh.html">VersionTest.testEqualStringVersionsAreEqual</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387040</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testInvalidVersionsAreEqual</span><a href="VersionTest_testInvalidVersionsAreEqual_do.html">VersionTest.testInvalidVersionsAreEqual</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387024</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testLesserNumericalVersionIsOlder</span><a href="VersionTest_testLesserNumericalVersionIsOlder_1e.html">VersionTest.testLesserNumericalVersionIsOlder</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387024</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testConstructorWithNoArgsCreatesInvalidVersion</span><a href="VersionTest_testConstructorWithNoArgsCreatesInvalidVersion_1.html">VersionTest.testConstructorWithNoArgsCreatesInvalidVersion</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387030</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testIsValidWhenGivenIntAsString</span><a href="VersionTest_testIsValidWhenGivenIntAsString_fh.html">VersionTest.testIsValidWhenGivenIntAsString</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387027</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testLowerSuffixesAreOlderWithMilestones</span><a href="VersionTest_testLowerSuffixesAreOlderWithMilestones_9l.html">VersionTest.testLowerSuffixesAreOlderWithMilestones</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387035</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testReleaseCandidatesAreOlderThanReleases</span><a href="VersionTest_testReleaseCandidatesAreOlderThanReleases_jx.html">VersionTest.testReleaseCandidatesAreOlderThanReleases</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387029</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testToStringWhenGivenInt</span><a href="VersionTest_testToStringWhenGivenInt_eg.html">VersionTest.testToStringWhenGivenInt</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387031</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testLowerSuffixesAreOlder</span><a href="VersionTest_testLowerSuffixesAreOlder_du.html">VersionTest.testLowerSuffixesAreOlder</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387027</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testMilestonesAreOlderThanAlphas</span><a href="VersionTest_testMilestonesAreOlderThanAlphas_bd.html">VersionTest.testMilestonesAreOlderThanAlphas</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387039</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testToStringWhenGivenIntAsString</span><a href="VersionTest_testToStringWhenGivenIntAsString_bg.html">VersionTest.testToStringWhenGivenIntAsString</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387026</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testShorterStringVersionsAreOlder</span><a href="VersionTest_testShorterStringVersionsAreOlder_80.html">VersionTest.testShorterStringVersionsAreOlder</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387036</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testHigherSuffixesAreNewer</span><a href="VersionTest_testHigherSuffixesAreNewer_g.html">VersionTest.testHigherSuffixesAreNewer</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387030</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testEqualNumericalAndStringVersionsAreEqual</span><a href="VersionTest_testEqualNumericalAndStringVersionsAreEqual_56.html">VersionTest.testEqualNumericalAndStringVersionsAreEqual</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387027</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testHigherStringVersionsAreNewerWithSuffixes</span><a href="VersionTest_testHigherStringVersionsAreNewerWithSuffixes_f3.html">VersionTest.testHigherStringVersionsAreNewerWithSuffixes</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387031</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testBetasAreNewerThanAlphasWithMilestones</span><a href="VersionTest_testBetasAreNewerThanAlphasWithMilestones_a6.html">VersionTest.testBetasAreNewerThanAlphasWithMilestones</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387038</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testBetasAreOlderThanReleaseCandidates</span><a href="VersionTest_testBetasAreOlderThanReleaseCandidates_ki.html">VersionTest.testBetasAreOlderThanReleaseCandidates</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387021</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0.001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testReleaseCandidatesAreNewerThanBetasWithMilestones</span><a href="VersionTest_testReleaseCandidatesAreNewerThanBetasWithMilestones_3z.html">VersionTest.testReleaseCandidatesAreNewerThanBetasWithMilestones</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387023</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testIsValidWhenGivenInt</span><a href="VersionTest_testIsValidWhenGivenInt_4b.html">VersionTest.testIsValidWhenGivenInt</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387031</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testIsValidWhenGivenVersionString</span><a href="VersionTest_testIsValidWhenGivenVersionString_1g.html">VersionTest.testIsValidWhenGivenVersionString</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387022</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">VersionTest.testAlphasAreOlderThanBetasWithMilestones</span><a href="VersionTest_testAlphasAreOlderThanBetasWithMilestones_fj.html">VersionTest.testAlphasAreOlderThanBetasWithMilestones</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1411569387035</span>24 Sep 15:36:27</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+
+    </tbody>
+</table>
+
+    </div> <!-- tabs-pane -->
+</div> <!-- aui-tabs horizontal-tabs -->
+
+                </section> <!-- class="aui-page-panel-content" -->
+            </div> <!-- class="aui-page-panel-inner" -->
+        </div> <!-- class="aui-page-panel" -->
+
+        <footer id="footer" role="contentinfo">
+    <section class="footer-body">
+        <ul>
+            <li>
+                Report generated by <a target="_new" href="http://www.atlassian.com/software/clover">Atlassian Clover</a> v 4.0.0
+                on Wed Sep 24 2014 15:37:03 BST using coverage data from Wed Sep 24 2014 15:37:00 BST.
+            </li>
+        </ul>
+        <ul>
+            <li>Clover: Open Source License registered to DMDirc. </li>
+        </ul>
+        <div id="footer-logo">
+            <a target="_blank" href="http://www.atlassian.com/">
+                Atlassian
+            </a>
+        </div>
+    </section>
+</footer>
+    </div> <!-- id="page" -->
+</body>
+</html>

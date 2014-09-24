@@ -1,0 +1,10 @@
+var clover = new Object();
+
+// JSON: {classes : [{name, id, sl, el,  methods : [{sl, el}, ...]}, ...]}
+clover.pageData = {"classes":[{"el":121,"id":36134,"methods":[{"el":52,"sc":5,"sl":49},{"el":61,"sc":5,"sl":57},{"el":72,"sc":5,"sl":66},{"el":81,"sc":5,"sl":77},{"el":91,"sc":5,"sl":86},{"el":101,"sc":5,"sl":96},{"el":110,"sc":5,"sl":106},{"el":120,"sc":5,"sl":115}],"name":"ProfileManagerControllerTest","sl":41}]}
+
+// JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
+clover.testTargets = {"test_1182":{"methods":[{"sl":77}],"name":"testAddNickname","pass":true,"statements":[{"sl":79},{"sl":80}]},"test_1193":{"methods":[{"sl":66}],"name":"testDeleteProfile","pass":true,"statements":[{"sl":68},{"sl":69},{"sl":70},{"sl":71}]},"test_1204":{"methods":[{"sl":57}],"name":"testAddProfile","pass":true,"statements":[{"sl":59},{"sl":60}]},"test_1228":{"methods":[{"sl":86}],"name":"testEditNickname","pass":true,"statements":[{"sl":88},{"sl":89},{"sl":90}]},"test_1233":{"methods":[{"sl":96}],"name":"testDeleteNickname","pass":true,"statements":[{"sl":98},{"sl":99},{"sl":100}]},"test_1242":{"methods":[{"sl":106}],"name":"testCloseDialog","pass":true,"statements":[{"sl":108},{"sl":109}]},"test_1252":{"methods":[{"sl":115}],"name":"testSaveAndCloseDialog","pass":true,"statements":[{"sl":117},{"sl":118},{"sl":119}]}}
+
+// JSON: { lines : [{tests : [testid1, testid2, testid3, ...]}, ...]};
+clover.srcFileLines = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [1204], [], [1204], [1204], [], [], [], [], [], [1193], [], [1193], [1193], [1193], [1193], [], [], [], [], [], [1182], [], [1182], [1182], [], [], [], [], [], [1228], [], [1228], [1228], [1228], [], [], [], [], [], [1233], [], [1233], [1233], [1233], [], [], [], [], [], [1242], [], [1242], [1242], [], [], [], [], [], [1252], [], [1252], [1252], [1252], [], []]

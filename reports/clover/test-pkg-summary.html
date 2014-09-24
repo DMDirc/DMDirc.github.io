@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    
+    
+    <link rel="SHORTCUT ICON" href="img/clover.ico" />
+
+    <link rel="stylesheet" href="aui/css/aui.min.css" media="all"/>
+    <link rel="stylesheet" href="aui/css/aui-experimental.min.css" media="all"/>
+    <!--[if IE 9]><link rel="stylesheet" href="aui/css/aui-ie9.min.css" media="all"/><![endif]-->
+
+    <style type="text/css" media="all">
+        @import url('style.css');
+        @import url('jstree/jstree.styles.css');
+        @import url('tree.css');
+        
+    </style>
+
+    <script src="jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="jstree/jstree.min.js" type="text/javascript"></script>
+    <script src="aui/js/aui.min.js" type="text/javascript"></script>
+    <script src="aui/js/aui-experimental.min.js" type="text/javascript"></script>
+    <script src="aui/js/aui-soy.min.js" type="text/javascript"></script>
+
+    <script src="package-nodes-tree.js" type="text/javascript"></script>
+    <script src="clover.js" type="text/javascript"></script>
+    <script src="cloud.js" type="text/javascript"></script>
+    <script src="help.js" type="text/javascript"></script>
+    <script src="overlibmws.js" type="text/javascript"><!-- overLIB (c) Erik Bosrup --></script>
+    <script src="overlibmws_shadow.js" type="text/javascript"></script>
+    <script src="sorttable.js" type="text/javascript"></script>
+    <script src="utils.js" type="text/javascript"></script>
+
+            <title>dmdirc</title>
+    </head>
+
+<body>
+    <div id="page">
+        
+        
+
+
+<header id="header" role="banner">
+    <nav class="aui-header aui-dropdown2-trigger-group" role="navigation">
+        <div class="aui-header-inner">
+            <div class="aui-header-primary">
+                <h1 id="logo" class="aui-header-logo aui-header-logo-clover">
+                    <a href="http://www.atlassian.com/clover" title="Open Atlassian Clover home page"><span class="aui-header-logo-device">Clover</span></a>
+                </h1>
+                            </div>
+            <div class="aui-header-secondary">
+                <ul class="aui-nav">
+                    <li id="system-help-menu">
+                        <a class="aui-nav-link" title="Open online Clover documentation" target="_blank"
+                           href="https://confluence.atlassian.com/display/CLOVER/Clover+Documentation+Home">
+                            <span class="aui-icon aui-icon-small aui-iconfont-help">&#160;Help</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+        
+        <div class="aui-page-panel">
+            <div class="aui-page-panel-inner">
+                <div class="aui-page-panel-nav aui-page-panel-nav-clover">
+                    
+
+<div class="aui-page-header-inner" style="margin-bottom: 20px;">
+    <div class="aui-page-header-image">
+                <div class="aui-avatar aui-avatar-large aui-avatar-project">
+            <div class="aui-avatar-inner">
+                                    <img src="img/clover_logo_large.png" alt="Clover icon"/>
+                            </div>
+        </div>
+            </div>
+    <div class="aui-page-header-main" >
+        <h1>
+                                        dmdirc
+                                </h1>
+    </div>
+</div>
+
+<nav class="aui-navgroup aui-navgroup-vertical">
+    <div class="aui-navgroup-inner">
+                                            <ul class="aui-nav">
+                <li class="aui-nav-selected">
+                    <a href="dashboard.html">Project overview</a>
+                </li>
+            </ul>
+        
+                <div class="aui-nav-heading packages-nav-heading">
+            <strong>Packages</strong>
+        </div>
+        <ul class="aui-nav project-packages">
+            <li>
+                <form method="get" action="#" class="aui package-filter-container">
+                    <input type="text" autocomplete="off" class="package-filter text" placeholder="Type and press enter to filter packages..." name="package-filter" id="package-filter" title="Type package name (or part of it) and press enter"/>
+                </form>
+                <p class="package-filter-message package-filter-search-message hidden">
+                    <small>Searching...</small>
+                </p>
+                <p class="package-filter-message package-filter-results-message hidden">
+                    <small><span class="package-filter-results-total">1234</span> <span class="package-filter-results-word">results</span> found.</small>
+                </p>
+                <p class="package-filter-message package-filter-no-results-message hidden">
+                    <small>No results found.</small>
+                </p>
+                <p class="package-filter-message package-filter-partial-results-message hidden">
+                    <small>Showing first <span class="package-filter-results-number">24</span> of
+                        <span class="package-filter-results-total">1234</span> results.</small>
+                </p>
+            </li>
+                                                  <div class="packages-tree-wrapper" data-root-relative="" data-package-name="">
+                <div class="packages-tree-container"></div>
+                <div class="packages-tree-lozenges"></div>
+            </div>
+        </ul>
+        
+            </div>
+</nav>                </div>
+                <section class="aui-page-panel-content">
+
+                    
+                    <div class="aui-page-header-main"><ol class="aui-nav aui-nav-breadcrumbs">
+    
+    <li> <a href="dashboard.html"> Project Clover database Wed Sep 24 2014 15:37:00 BST</a></li>
+</ol></div>
+    
+
+<h1 class="aui-h2-clover">
+                        
+            Project overview
+            </h1>
+<div class="aui-tabs horizontal-tabs">
+
+        <ul class="tabs-menu">
+            <li class="menu-item ">
+            <a href="dashboard.html">Dashboard</a>
+        </li>
+                <li class="menu-item ">
+            <a href="pkg-summary.html"><strong>Application code</strong></a>
+        </li>
+                <li class="menu-item ">
+            <a href="testsrc-pkg-summary.html"><strong>Test code</strong></a>
+        </li>
+        <li class="menu-item active-tab">
+            <a href="test-pkg-summary.html"><strong>Test results</strong></a>
+        </li>
+                <li class="menu-item ">
+            <a href="top-risks.html"><strong>Top risks</strong></a>
+        </li>
+        <li class="menu-item ">
+            <a href="quick-wins.html"><strong>Quick wins</strong></a>
+        </li>
+                                                <li class="menu-item ">
+                <a href="treemap.html"><strong>Coverage tree map</strong></a>
+            </li>
+            </ul>
+    <div class="tabs-pane active-pane" id="tabs-first">
+
+        <div>&#160;</div>
+
+        
+
+        
+        
+        
+        <table id="projectTestSummaryTable" class="aui">
+            <thead>
+                <tr>
+                    <th width="40%">Project</th>
+                    <th width="10%">Tests</th>
+                    <th width="10%">Fail</th>
+                    <th width="10%">Error</th>
+                    <th width="10%"><label title="The total time in seconds taken to run this set of tests.">Time</label></th>
+                    <th width="20%">% Pass</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Clover database Wed Sep 24 2014 15:37:00 BST</td>
+                    <td class="testPasses"><span class="sortValue">1254</span>1254</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+                    <td>1.375</td>
+                    <td>
+                        
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div>&#160;</div>
+
+        
+                <table id="projectTestPackagesTable" class="aui aui-table-sortable">
+            <thead>
+                <tr>
+                    <th width="40%">Packages</th>
+                    <th width="10%">Tests</th>
+                    <th width="10%">Fail</th>
+                    <th width="10%">Error</th>
+                    <th width="10%"><label title="The total time in seconds taken to run this set of tests.">Time(secs)</label></th>
+                    <th width="20%">% Pass</th>
+                </tr>
+            </thead>
+            <tbody>
+
+
+   
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.commandparser.auto</span><a href="com/dmdirc/commandparser/auto/test-pkg-summary.html">com.dmdirc.commandparser.auto</a></td>
+        <td class="testPasses"><span class="sortValue">23</span>23</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.020999999999999998</span>0.021</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.actions</span><a href="com/dmdirc/actions/test-pkg-summary.html">com.dmdirc.actions</a></td>
+        <td class="testPasses"><span class="sortValue">145</span>145</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.034</span>0.034</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.actions.wrappers</span><a href="com/dmdirc/actions/wrappers/test-pkg-summary.html">com.dmdirc.actions.wrappers</a></td>
+        <td class="testPasses"><span class="sortValue">15</span>15</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.002</span>0.002</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.util</span><a href="com/dmdirc/util/test-pkg-summary.html">com.dmdirc.util</a></td>
+        <td class="testPasses"><span class="sortValue">72</span>72</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.14500000000000002</span>0.145</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.updater</span><a href="com/dmdirc/updater/test-pkg-summary.html">com.dmdirc.updater</a></td>
+        <td class="testPasses"><span class="sortValue">46</span>46</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.002</span>0.002</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.ui.core.components</span><a href="com/dmdirc/ui/core/components/test-pkg-summary.html">com.dmdirc.ui.core.components</a></td>
+        <td class="testPasses"><span class="sortValue">6</span>6</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.006</span>0.006</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.updater.installing</span><a href="com/dmdirc/updater/installing/test-pkg-summary.html">com.dmdirc.updater.installing</a></td>
+        <td class="testPasses"><span class="sortValue">3</span>3</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.006</span>0.006</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.ui.messages</span><a href="com/dmdirc/ui/messages/test-pkg-summary.html">com.dmdirc.ui.messages</a></td>
+        <td class="testPasses"><span class="sortValue">53</span>53</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.006</span>0.006</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.ui.core.util</span><a href="com/dmdirc/ui/core/util/test-pkg-summary.html">com.dmdirc.ui.core.util</a></td>
+        <td class="testPasses"><span class="sortValue">1</span>1</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.001</span>0.001</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.updater.manager</span><a href="com/dmdirc/updater/manager/test-pkg-summary.html">com.dmdirc.updater.manager</a></td>
+        <td class="testPasses"><span class="sortValue">3</span>3</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.001</span>0.001</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.commandparser.commands.chat</span><a href="com/dmdirc/commandparser/commands/chat/test-pkg-summary.html">com.dmdirc.commandparser.commands.chat</a></td>
+        <td class="testPasses"><span class="sortValue">2</span>2</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.001</span>0.001</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc</span><a href="com/dmdirc/test-pkg-summary.html">com.dmdirc</a></td>
+        <td class="testPasses"><span class="sortValue">41</span>41</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.065</span>0.065</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.ui.core.feedback</span><a href="com/dmdirc/ui/core/feedback/test-pkg-summary.html">com.dmdirc.ui.core.feedback</a></td>
+        <td class="testPasses"><span class="sortValue">11</span>11</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.002</span>0.002</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.commandparser.parsers</span><a href="com/dmdirc/commandparser/parsers/test-pkg-summary.html">com.dmdirc.commandparser.parsers</a></td>
+        <td class="testPasses"><span class="sortValue">15</span>15</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.003</span>0.003</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.logger</span><a href="com/dmdirc/logger/test-pkg-summary.html">com.dmdirc.logger</a></td>
+        <td class="testPasses"><span class="sortValue">24</span>24</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.005</span>0.005</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.commandparser.commands.channel</span><a href="com/dmdirc/commandparser/commands/channel/test-pkg-summary.html">com.dmdirc.commandparser.commands.channel</a></td>
+        <td class="testPasses"><span class="sortValue">18</span>18</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.012</span>0.012</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.actions.metatypes</span><a href="com/dmdirc/actions/metatypes/test-pkg-summary.html">com.dmdirc.actions.metatypes</a></td>
+        <td class="testPasses"><span class="sortValue">7</span>7</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.0</span>0</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.commandparser.aliases</span><a href="com/dmdirc/commandparser/aliases/test-pkg-summary.html">com.dmdirc.commandparser.aliases</a></td>
+        <td class="testPasses"><span class="sortValue">22</span>22</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.003</span>0.003</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.ui</span><a href="com/dmdirc/ui/test-pkg-summary.html">com.dmdirc.ui</a></td>
+        <td class="testPasses"><span class="sortValue">23</span>23</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.01</span>0.01</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.config.prefs.reader</span><a href="com/dmdirc/config/prefs/reader/test-pkg-summary.html">com.dmdirc.config.prefs.reader</a></td>
+        <td class="testPasses"><span class="sortValue">1</span>1</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.034</span>0.034</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.config</span><a href="com/dmdirc/config/test-pkg-summary.html">com.dmdirc.config</a></td>
+        <td class="testPasses"><span class="sortValue">59</span>59</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.17700000000000002</span>0.177</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.commandparser.commands.server</span><a href="com/dmdirc/commandparser/commands/server/test-pkg-summary.html">com.dmdirc.commandparser.commands.server</a></td>
+        <td class="testPasses"><span class="sortValue">7</span>7</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.001</span>0.001</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.ui.core.newserver</span><a href="com/dmdirc/ui/core/newserver/test-pkg-summary.html">com.dmdirc.ui.core.newserver</a></td>
+        <td class="testPasses"><span class="sortValue">35</span>35</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.011000000000000003</span>0.011</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.ui.core.aliases</span><a href="com/dmdirc/ui/core/aliases/test-pkg-summary.html">com.dmdirc.ui.core.aliases</a></td>
+        <td class="testPasses"><span class="sortValue">21</span>21</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.003</span>0.003</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.commandparser.commands.global</span><a href="com/dmdirc/commandparser/commands/global/test-pkg-summary.html">com.dmdirc.commandparser.commands.global</a></td>
+        <td class="testPasses"><span class="sortValue">11</span>11</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.003</span>0.003</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.commandparser.commands.flags</span><a href="com/dmdirc/commandparser/commands/flags/test-pkg-summary.html">com.dmdirc.commandparser.commands.flags</a></td>
+        <td class="testPasses"><span class="sortValue">16</span>16</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.007</span>0.007</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.ui.core.profiles</span><a href="com/dmdirc/ui/core/profiles/test-pkg-summary.html">com.dmdirc.ui.core.profiles</a></td>
+        <td class="testPasses"><span class="sortValue">32</span>32</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.003</span>0.003</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.actions.validators</span><a href="com/dmdirc/actions/validators/test-pkg-summary.html">com.dmdirc.actions.validators</a></td>
+        <td class="testPasses"><span class="sortValue">7</span>7</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.004</span>0.004</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.config.prefs</span><a href="com/dmdirc/config/prefs/test-pkg-summary.html">com.dmdirc.config.prefs</a></td>
+        <td class="testPasses"><span class="sortValue">52</span>52</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.03300000000000001</span>0.033</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.ui.input.tabstyles</span><a href="com/dmdirc/ui/input/tabstyles/test-pkg-summary.html">com.dmdirc.ui.input.tabstyles</a></td>
+        <td class="testPasses"><span class="sortValue">1</span>1</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.001</span>0.001</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.updater.checking</span><a href="com/dmdirc/updater/checking/test-pkg-summary.html">com.dmdirc.updater.checking</a></td>
+        <td class="testPasses"><span class="sortValue">3</span>3</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.0</span>0</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.config.validators</span><a href="com/dmdirc/config/validators/test-pkg-summary.html">com.dmdirc.config.validators</a></td>
+        <td class="testPasses"><span class="sortValue">1</span>1</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.0</span>0</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.commandparser</span><a href="com/dmdirc/commandparser/test-pkg-summary.html">com.dmdirc.commandparser</a></td>
+        <td class="testPasses"><span class="sortValue">16</span>16</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.002</span>0.002</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.util.validators</span><a href="com/dmdirc/util/validators/test-pkg-summary.html">com.dmdirc.util.validators</a></td>
+        <td class="testPasses"><span class="sortValue">48</span>48</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.007</span>0.007</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.util.collections</span><a href="com/dmdirc/util/collections/test-pkg-summary.html">com.dmdirc.util.collections</a></td>
+        <td class="testPasses"><span class="sortValue">68</span>68</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.08000000000000002</span>0.08</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.util.io</span><a href="com/dmdirc/util/io/test-pkg-summary.html">com.dmdirc.util.io</a></td>
+        <td class="testPasses"><span class="sortValue">43</span>43</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.04</span>0.04</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.parser.common</span><a href="com/dmdirc/parser/common/test-pkg-summary.html">com.dmdirc.parser.common</a></td>
+        <td class="testPasses"><span class="sortValue">7</span>7</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.003</span>0.003</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.parser.irc.processors</span><a href="com/dmdirc/parser/irc/processors/test-pkg-summary.html">com.dmdirc.parser.irc.processors</a></td>
+        <td class="testPasses"><span class="sortValue">33</span>33</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.11500000000000002</span>0.115</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.parser.irc</span><a href="com/dmdirc/parser/irc/test-pkg-summary.html">com.dmdirc.parser.irc</a></td>
+        <td class="testPasses"><span class="sortValue">108</span>108</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.26600000000000007</span>0.266</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.addons.calc</span><a href="com/dmdirc/addons/calc/test-pkg-summary.html">com.dmdirc.addons.calc</a></td>
+        <td class="testPasses"><span class="sortValue">30</span>30</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.017</span>0.017</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.addons.conditional_execute</span><a href="com/dmdirc/addons/conditional_execute/test-pkg-summary.html">com.dmdirc.addons.conditional_execute</a></td>
+        <td class="testPasses"><span class="sortValue">11</span>11</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.013000000000000001</span>0.013</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.addons.dcc</span><a href="com/dmdirc/addons/dcc/test-pkg-summary.html">com.dmdirc.addons.dcc</a></td>
+        <td class="testPasses"><span class="sortValue">9</span>9</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.003</span>0.003</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.addons.debug</span><a href="com/dmdirc/addons/debug/test-pkg-summary.html">com.dmdirc.addons.debug</a></td>
+        <td class="testPasses"><span class="sortValue">4</span>4</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.016</span>0.016</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.addons.identd</span><a href="com/dmdirc/addons/identd/test-pkg-summary.html">com.dmdirc.addons.identd</a></td>
+        <td class="testPasses"><span class="sortValue">22</span>22</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.028000000000000008</span>0.028</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.addons.mediasource_vlc</span><a href="com/dmdirc/addons/mediasource_vlc/test-pkg-summary.html">com.dmdirc.addons.mediasource_vlc</a></td>
+        <td class="testPasses"><span class="sortValue">1</span>1</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.083</span>0.083</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.addons.osd</span><a href="com/dmdirc/addons/osd/test-pkg-summary.html">com.dmdirc.addons.osd</a></td>
+        <td class="testPasses"><span class="sortValue">4</span>4</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.007</span>0.007</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.addons.redirect</span><a href="com/dmdirc/addons/redirect/test-pkg-summary.html">com.dmdirc.addons.redirect</a></td>
+        <td class="testPasses"><span class="sortValue">1</span>1</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.024</span>0.024</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.addons.ui_swing.components.vetoable</span><a href="com/dmdirc/addons/ui_swing/components/vetoable/test-pkg-summary.html">com.dmdirc.addons.ui_swing.components.vetoable</a></td>
+        <td class="testPasses"><span class="sortValue">10</span>10</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.016</span>0.016</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+      
+    
+        
+        <tr>
+        <td><span class="sortValue">com.dmdirc.addons.ui_swing.dialogs.profiles</span><a href="com/dmdirc/addons/ui_swing/dialogs/profiles/test-pkg-summary.html">com.dmdirc.addons.ui_swing.dialogs.profiles</a></td>
+        <td class="testPasses"><span class="sortValue">63</span>63</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td><span class="sortValue">0.05300000000000001</span>0.053</td>
+        <td>
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+               </tbody>
+        </table>
+
+    </div> 
+</div> 
+
+                </section> <!-- class="aui-page-panel-content" -->
+            </div> <!-- class="aui-page-panel-inner" -->
+        </div> <!-- class="aui-page-panel" -->
+
+        <footer id="footer" role="contentinfo">
+    <section class="footer-body">
+        <ul>
+            <li>
+                Report generated by <a target="_new" href="http://www.atlassian.com/software/clover">Atlassian Clover</a> v 4.0.0
+                on Wed Sep 24 2014 15:37:03 BST using coverage data from Wed Sep 24 2014 15:37:00 BST.
+            </li>
+        </ul>
+        <ul>
+            <li>Clover: Open Source License registered to DMDirc. </li>
+        </ul>
+        <div id="footer-logo">
+            <a target="_blank" href="http://www.atlassian.com/">
+                Atlassian
+            </a>
+        </div>
+    </section>
+</footer>
+    </div> <!-- id="page" -->
+</body>
+</html>

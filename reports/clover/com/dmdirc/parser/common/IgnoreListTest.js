@@ -1,0 +1,10 @@
+var clover = new Object();
+
+// JSON: {classes : [{name, id, sl, el,  methods : [{sl, el}, ...]}, ...]}
+clover.pageData = {"classes":[{"el":128,"id":23531,"methods":[{"el":60,"sc":5,"sl":54},{"el":68,"sc":5,"sl":62},{"el":83,"sc":5,"sl":70},{"el":91,"sc":5,"sl":85},{"el":101,"sc":5,"sl":93},{"el":113,"sc":5,"sl":103},{"el":126,"sc":5,"sl":115}],"name":"IgnoreListTest","sl":32}]}
+
+// JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
+clover.testTargets = {"test_951":{"methods":[{"sl":70}],"name":"testIllegals","pass":true,"statements":[{"sl":72},{"sl":73},{"sl":75},{"sl":76},{"sl":78},{"sl":81}]},"test_952":{"methods":[{"sl":54}],"name":"testToRegex","pass":true,"statements":[{"sl":56},{"sl":57},{"sl":58}]},"test_953":{"methods":[{"sl":62}],"name":"testToSimple","pass":true,"statements":[{"sl":64},{"sl":65},{"sl":66}]},"test_954":{"methods":[{"sl":103}],"name":"testCanConvert","pass":true,"statements":[{"sl":105},{"sl":106},{"sl":108},{"sl":109},{"sl":111},{"sl":112}]},"test_955":{"methods":[{"sl":115}],"name":"testGetSimpleList","pass":true,"statements":[{"sl":117},{"sl":118},{"sl":120},{"sl":121},{"sl":122},{"sl":125}]},"test_956":{"methods":[{"sl":85}],"name":"testConstructor","pass":true,"statements":[{"sl":87},{"sl":88},{"sl":90}]},"test_957":{"methods":[{"sl":93}],"name":"testAddSimple","pass":true,"statements":[{"sl":95},{"sl":97},{"sl":98},{"sl":99}]}}
+
+// JSON: { lines : [{tests : [testid1, testid2, testid3, ...]}, ...]};
+clover.srcFileLines = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [952], [], [952], [952], [952], [], [], [], [953], [], [953], [953], [953], [], [], [], [951], [], [951], [951], [], [951], [951], [], [951], [], [], [951], [], [], [], [956], [], [956], [956], [], [956], [], [], [957], [], [957], [], [957], [957], [957], [], [], [], [954], [], [954], [954], [], [954], [954], [], [954], [954], [], [], [955], [], [955], [955], [], [955], [955], [955], [], [], [955], [], [], []]

@@ -1,0 +1,10 @@
+var clover = new Object();
+
+// JSON: {classes : [{name, id, sl, el,  methods : [{sl, el}, ...]}, ...]}
+clover.pageData = {"classes":[{"el":100,"id":3189,"methods":[{"el":48,"sc":5,"sl":44},{"el":57,"sc":5,"sl":55},{"el":67,"sc":5,"sl":65},{"el":76,"sc":5,"sl":74}],"name":"ChildEventBusManager","sl":38},{"el":94,"id":3199,"methods":[{"el":86,"sc":9,"sl":80},{"el":92,"sc":9,"sl":89}],"name":"ChildEventBusManager.EventPropagator","sl":78},{"el":98,"id":3206,"methods":[],"name":"ChildEventBusManager.ChildEventBusDisconnectingEvent","sl":96}]}
+
+// JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
+clover.testTargets = {"test_297":{"methods":[{"sl":74}],"name":"testDoesNotPropagateBeforeConnect","pass":true,"statements":[{"sl":75}]},"test_358":{"methods":[{"sl":55},{"sl":74},{"sl":80}],"name":"testPropagates","pass":true,"statements":[{"sl":56},{"sl":75},{"sl":82},{"sl":84}]},"test_374":{"methods":[{"sl":44},{"sl":55},{"sl":74},{"sl":80}],"name":"testSplitLine","pass":true,"statements":[{"sl":45},{"sl":46},{"sl":47},{"sl":56},{"sl":75},{"sl":82},{"sl":84}]},"test_599":{"methods":[{"sl":44},{"sl":55},{"sl":74},{"sl":80}],"name":"testGetNumLines","pass":true,"statements":[{"sl":45},{"sl":46},{"sl":47},{"sl":56},{"sl":75},{"sl":82},{"sl":84}]},"test_639":{"methods":[{"sl":55},{"sl":65},{"sl":74},{"sl":80},{"sl":89}],"name":"testDoesNotPropagateAfterDisconnect","pass":true,"statements":[{"sl":56},{"sl":66},{"sl":75},{"sl":82},{"sl":91}]}}
+
+// JSON: { lines : [{tests : [testid1, testid2, testid3, ...]}, ...]};
+clover.srcFileLines = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [374, 599], [374, 599], [374, 599], [374, 599], [], [], [], [], [], [], [], [639, 374, 599, 358], [639, 374, 599, 358], [], [], [], [], [], [], [], [], [639], [639], [], [], [], [], [], [], [], [639, 374, 297, 599, 358], [639, 374, 297, 599, 358], [], [], [], [], [639, 374, 599, 358], [], [639, 374, 599, 358], [], [374, 599, 358], [], [], [], [], [639], [], [639], [], [], [], [], [], [], [], [], []]
