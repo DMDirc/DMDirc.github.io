@@ -1,0 +1,10 @@
+var clover = new Object();
+
+// JSON: {classes : [{name, id, sl, el,  methods : [{sl, el}, ...]}, ...]}
+clover.pageData = {"classes":[{"el":52,"id":19768,"methods":[{"el":42,"sc":5,"sl":39},{"el":46,"sc":5,"sl":44},{"el":50,"sc":5,"sl":48}],"name":"CommandInfoPair","sl":32}]}
+
+// JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
+clover.testTargets = {"test_154":{"methods":[{"sl":44},{"sl":48}],"name":"testGetCommandTime","pass":true,"statements":[{"sl":45},{"sl":49}]},"test_162":{"methods":[{"sl":44},{"sl":48}],"name":"testParseCommandWithoutArguments","pass":true,"statements":[{"sl":45},{"sl":49}]},"test_215":{"methods":[{"sl":44},{"sl":48}],"name":"testParseSilencedChannelCommandWithoutArguments","pass":true,"statements":[{"sl":45},{"sl":49}]},"test_27":{"methods":[{"sl":44},{"sl":48}],"name":"testParseChannelCommandWithoutArguments","pass":true,"statements":[{"sl":45},{"sl":49}]},"test_495":{"methods":[{"sl":44},{"sl":48}],"name":"testParseSilentCommandWithArguments","pass":true,"statements":[{"sl":45},{"sl":49}]},"test_526":{"methods":[{"sl":44},{"sl":48}],"name":"testParseChannelCommandWithArguments","pass":true,"statements":[{"sl":45},{"sl":49}]},"test_545":{"methods":[{"sl":44},{"sl":48}],"name":"testParseSilentCommandWithoutArguments","pass":true,"statements":[{"sl":45},{"sl":49}]},"test_622":{"methods":[{"sl":44},{"sl":48}],"name":"testParseCommandWithArguments","pass":true,"statements":[{"sl":45},{"sl":49}]},"test_706":{"methods":[{"sl":44},{"sl":48}],"name":"testParseSilencedChannelCommandWithArguments","pass":true,"statements":[{"sl":45},{"sl":49}]}}
+
+// JSON: { lines : [{tests : [testid1, testid2, testid3, ...]}, ...]};
+clover.srcFileLines = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [162, 495, 27, 622, 706, 154, 545, 526, 215], [162, 495, 27, 622, 706, 154, 545, 526, 215], [], [], [162, 495, 27, 622, 706, 154, 545, 526, 215], [162, 495, 27, 622, 706, 154, 545, 526, 215], [], [], []]
