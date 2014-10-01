@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Intelligent channel names
+author: Chris Smith
+author_github: csmith
 ---
 As you can probably gather from DMDirc's tagline, we like making DMDirc act intelligently. One of our latest set of changes revolves around intelligent handling of channel names. Say you join a channel and a friendly person advises you to try some others out for size:
 

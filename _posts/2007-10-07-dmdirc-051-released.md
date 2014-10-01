@@ -1,6 +1,8 @@
 ---
 layout: post
 title: DMDirc 0.5.1 released
+author: Greg Holmes
+author_github: greboid
 ---
 We have just released version 0.5.1 of DMDirc.  This is mainly a bug fix release with a couple of minor 0.6 improvements included, see the <a href="http://code.google.com/p/dmdirc/wiki/ChangelogNoughtPointFivePointOne">changelog</a> for more information. 
 

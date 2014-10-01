@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "New to 0.5: Cross-Platform Installer"
+author: Shane McCormack
+author_github: ShaneMcC
 ---
 As part of our aim to make DMDirc into a good, cross-platform IRC Client, it was decided early on that it required an actual installer to make packaging/distributing/installing the client much easier.
 

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Introducing actions
+author: Chris Smith
+author_github: csmith
 ---
 'Actions' are one of the major features we've introduced since DMDirc 0.3 was released.  Actions provide a way for the user to make the client respond to events in certain ways, and basically provide a subset of the functionality of scripting in other clients (e.g. mIRC), but in a **much** more user-friendly manner.
 

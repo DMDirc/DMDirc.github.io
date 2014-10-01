@@ -1,6 +1,8 @@
 ---
 layout: post
 title: DMDirc 0.5 released
+author: Greg Holmes
+author_github: greboid
 ---
 We have just released version 0.5 of DMDirc.
 

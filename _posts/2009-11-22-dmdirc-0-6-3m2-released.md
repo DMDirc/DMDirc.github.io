@@ -1,6 +1,8 @@
 ---
 layout: post
 title: DMDirc 0.6.3m2 Released
+author: Shane McCormack
+author_github: ShaneMcC
 ---
 At the start of the month we quietly released DMDirc 0.6.3m2 as part of our new <a href="http://blog.dmdirc.com/2009/07/05/improving-the-dmdirc-release-cycle/">fixed release cycle</a>.
 

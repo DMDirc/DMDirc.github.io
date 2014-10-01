@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Welcome to the DMDirc development blog
+author: Chris Smith
+author_github: csmith
 ---
 Welcome to the DMDirc development blog.  The idea behind this blog to allow us, the developers, to show off new features we're implementing, discuss various aspects of IRC and writing an IRC client, and to get some feedback from our users. We'll try to make semi-regular posts to keep everyone up to date with the client's status.
 

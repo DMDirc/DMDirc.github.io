@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "DMDirc 0.6.3m1 Released."
+author: Shane McCormack
+author_github: ShaneMcC
 ---
 After nearly a year, we have just released DMDirc 0.6.3m1, with over 1000 commits resulting in <a href="http://wiki.dmdirc.com/documentation:changelogs:0.6.3m1">over 200</a> feature additions, bug fixes and other changes, including:
 

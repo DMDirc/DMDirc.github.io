@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Introducing intelligent command completion
+author: Chris Smith
+author_github: csmith
 ---
 One of the first new features introduced after the release of DMDirc 0.4 was the intelligent command completion system. This allows commands to tell the tab completer about their arguments. The best way to explain this is with a few examples:
 

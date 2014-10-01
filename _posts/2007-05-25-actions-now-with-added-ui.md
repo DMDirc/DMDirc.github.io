@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Actions: now with added UI"
+author: Chris Smith
+author_github: csmith
 ---
 Following on from my previous post, the front-end for actions is just about complete. Here are some preview images:
 

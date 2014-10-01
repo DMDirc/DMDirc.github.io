@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Feature Freeze and Release Candidates
+author: Shane McCormack
+author_github: ShaneMcC
 ---
 DMDirc has now entered Feature Freeze for the 0.5 release (for more information about our release cycle, see <a href="http://blog.dmdirc.com/2007/06/08/the-dmdirc-release-cycle/">this blog post</a>).
 

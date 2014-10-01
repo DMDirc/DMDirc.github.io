@@ -1,6 +1,8 @@
 ---
 layout: post
 title: New Action UIs
+author: Greg Holmes
+author_github: greboid
 ---
 In DMDirc 0.6, we have made some back-end improvements to the functionality actions groups which allow authors of action packs to specify meta-data such as a description of the pack, and also list the settings available. We obviously wanted to include this new information into the actions UI, and we were aware that the <a href="http://blog.dmdirc.com/2007/05/25/actions-now-with-added-ui/">current actions editor</a> wasn't as user-friendly as it could be, so we took the opportunity to redesign and rewrite the actions UIs.
 

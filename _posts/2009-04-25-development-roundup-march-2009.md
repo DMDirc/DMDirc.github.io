@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Development roundup: March 2009"
+author: Chris Smith
+author_github: csmith
 ---
 March was a reasonably busy month for us, with 160 commits to our central repository.
 

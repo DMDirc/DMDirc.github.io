@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Installer Updates
+author: Shane McCormack
+author_github: ShaneMcC
 ---
 Since DMDirc 0.5.1, the Linux and Windows installers have received several major updates.
 

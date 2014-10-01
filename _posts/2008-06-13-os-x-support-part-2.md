@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "OS X Support: Part 2"
+author: Shane McCormack
+author_github: ShaneMcC
 ---
 <a href="http://blog.dmdirc.com/2008/03/06/os-x-support/">As previously mentioned</a>, once Apple released Java6 for OS X I set about updating the scripts we use for building the installers and nightlies so that we could support OS X officially for DMDirc 0.6.
 

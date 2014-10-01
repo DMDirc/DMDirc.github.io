@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Looking ahead to DMDirc 0.7
+author: Chris Smith
+author_github: csmith
 ---
 With DMDirc 0.6 coming soon (hopefully — we still have a few bits and pieces to finish off), we're starting to look ahead towards the next major branch: DMDirc 0.7.  The 0.7 branch has several major new features, namely sever lists and a revamped update system, both of which have extensive core and UI components.  There are also a large number of smaller features and enhancements: we have over 80 issues open for the 0.7 branch, and this number is growing fairly steadily.
 

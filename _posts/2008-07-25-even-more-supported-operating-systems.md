@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Even more supported operating systems
+author: Shane McCormack
+author_github: ShaneMcC
 ---
 With the upcoming version 0.6 of DMDirc (we know that it's been a while since the last big release, we'll blog about that soon) we have added support for even more operating systems.
 

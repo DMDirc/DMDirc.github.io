@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The DMDirc release cycle
+author: Chris Smith
+author_github: csmith
 ---
 As we're preparing to release 0.4, I thought I'd take the time to describe how the DMDirc release cycle works.
 
