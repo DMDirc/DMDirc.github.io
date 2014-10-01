@@ -4,7 +4,7 @@ title: "Development roundup: May 2009"
 author: Chris Smith
 author_github: csmith
 ---
-During May the DMDirc developers were gearing up to release DMDirc 0.6.3m1 (which has just been released: see our <a href="http://blog.dmdirc.com/2009/06/28/dmdirc-063m1-released/">previous blog post</a>), the first of our "milestone" releases on the way to 0.6.3 proper. During this month we made 113 commits to our git repository, fixing over 30 issues. Some of the more notable changes this month were:
+During May the DMDirc developers were gearing up to release DMDirc 0.6.3m1 (which has just been released: see our <a href="{% post_url 2009-06-28-dmdirc-063m1-released %}">previous blog post</a>), the first of our "milestone" releases on the way to 0.6.3 proper. During this month we made 113 commits to our git repository, fixing over 30 issues. Some of the more notable changes this month were:
 
 <ul>
 	<li>Default settings changed from being versioned using SVN revision numbers to using Git commit hashes, which fixes a lot of development error and further paves the way for us to drop SVN support entirely,</li>

@@ -24,16 +24,6 @@ Mac users may note that there is no Mac Version of the installer. This is due to
 
 At the moment the installer requires Java 6 to be installed on the machine already. If the installer is ran on a machine without Java, or with a version that is too old, it will notify (via console in Linux, or a dialog box on Windows) the user that they need to install or update Java first. One of our goals for DMDirc 0.6 is to produce a version of the installer that bundles Java 6, or can download it for the user.
 
-To allow for pre-release testing of the installer, you will find here two copies of the installer (one for Linux, one for Windows), and their MD5 hashes. These are <strong>pre-release, possibly unstable and/or broken</strong> versions of DMDirc, compiled against SVN revision 2030, and as such the installers or the client they install may not function, suddenly burst into flames, or sacrifice your first born child. These should, therefore, be used at your own risk. However, if the installers (or the client) actually do something they shouldn't, or don't do something they should please feel free to <a href="http://code.google.com/p/dmdirc/issues/entry">submit an issue report</a> or <a href="http://blog.dmdirc.com/2007/09/13/new-to-05-cross-platform-installer/#respond">reply to this post</a>.
-
-Now the files:
-<ul>
-	<li> <a href='http://blog.dmdirc.com/wp-content/uploads/2007/09/installersvn_2030.exe' title='Windows Pre-Release Installer (SVN Revision: 2030)'>Windows Pre-Release Installer (SVN Revision: 2030)</a></li>
-	<li> <a href='http://blog.dmdirc.com/wp-content/uploads/2007/09/installersvn_2030.exe.md5' title='Windows Pre-Release Installer MD5 checksum (SVN Revision: 2030)'>Windows Pre-Release Installer MD5 checksum (SVN Revision: 2030)</a></li>
-	<li> <a href='http://blog.dmdirc.com/wp-content/uploads/2007/09/installersvn_2030.run' title='Linux Pre-Release Installer (SVN Revision: 2030)'>Linux Pre-Release Installer (SVN Revision: 2030)</a></li>
-	<li> <a href='http://blog.dmdirc.com/wp-content/uploads/2007/09/installersvn_2030.run.md5' title='Linux Pre-Release Installer MD5 checksum (SVN Revision: 2030)'>Linux Pre-Release Installer MD5 checksum (SVN Revision: 2030)</a></li>
-</ul>
-
 <span style="font-size: 10px; font-style: italic">This section of the post assumes you actually care about what I have to say about the installer and how it works. I care, and I would enjoy reading this, but most people probably won't. Don't read on if easily bored!</span>
 
 First off is the main portion of the installer: the Java code that actually does the installing. This is, of course, the same on all platforms (just enabling/disabling bits that are not appropriate for the platform, etc) and is a rather simple case of copying files from the temporary location they were extracted to, to the location the user wants them to be, followed by platform-specific code to create shortcuts to the files.
@@ -226,4 +216,4 @@ Release ready - see output folder
 </pre>
 As you can see, the scripts do everything automatically, including downloading the two extra files needed for windows (7zip sfx stub, and shortcut.exe)
 
-That's about all I can think of to say about the installer, so feel free to try and break it (and report any breakages either as <a href="http://code.google.com/p/dmdirc/issues/entry">an issue on google code</a>, or as <a href="http://blog.dmdirc.com/2007/09/13/new-to-05-cross-platform-installer/#respond">a comment here</a>).
+That's about all I can think of to say about the installer, so feel free to try and break it (and report any breakages as <a href="http://code.google.com/p/dmdirc/issues/entry">an issue on google code</a>).
