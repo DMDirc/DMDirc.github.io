@@ -6,7 +6,7 @@ The latest major change we've added to the 0.6 branch is a revamp of the prefere
 
 We took this opportunity to move plugin configuration settings into the main preferences dialog. This makes the configuration options for individual plugins much easier to find, and reduces the amount of clutter in the Settings menu somewhat. Here's a screenshot of the new prefs dialog — you can see the configuration categories for all of the plugins I have installed, as well as the plugin manager itself in its newly integrated state:
 
-<img src='http://blog.dmdirc.com/wp-content/uploads/2008/01/dmdirc-newprefs1.png' alt='New preferences dialog' />
+![New preferences dialog](/blog-assets/dmdirc-newprefs1.png)
 
 We still have some more improvements planned for the preferences dialog in 0.6, including a new component to allow easier editing of duration fields (no more entering times in milliseconds!), and better management of optional colour fields.
 

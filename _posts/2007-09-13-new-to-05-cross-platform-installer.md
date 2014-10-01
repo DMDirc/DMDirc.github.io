@@ -11,7 +11,10 @@ So since we released 0.4, I have been working almost entirely on this, and can h
 One of the key requirements for the installer is that it should run on all the (desktop) platforms that DMDirc runs on, which right now are Windows (2000, XP, 2003, Vista) and Linux.
 
 Below are a few screen shots showing the installer running on XP (using both Classic and Normal themes), and Windows Vista:
-<a href='http://blog.dmdirc.com/2007/09/13/new-to-05-cross-platform-installer/installer-running-on-xp-pro-normal-theme/' rel='attachment wp-att-27' title='Installer running on XP Pro - Normal Theme'><img src='http://blog.dmdirc.com/wp-content/uploads/2007/09/xp-normal.thumbnail.png' alt='Installer running on XP Pro - Normal Theme' /></a> <a href='http://blog.dmdirc.com/2007/09/13/new-to-05-cross-platform-installer/installer-running-on-xp-pro-classic-theme/' rel='attachment wp-att-26' title='Installer running on XP Pro - Classic Theme'><img src='http://blog.dmdirc.com/wp-content/uploads/2007/09/xp-classic.thumbnail.png' alt='Installer running on XP Pro - Classic Theme' /></a> <a href='http://blog.dmdirc.com/2007/09/13/new-to-05-cross-platform-installer/installer-running-on-vista/' rel='attachment wp-att-25' title='Installer running on Vista'><img src='http://blog.dmdirc.com/wp-content/uploads/2007/09/vista.thumbnail.png' alt='Installer running on Vista' /></a>
+
+![Installer running on XP Pro - Normal Theme](/blog-assets/xp-normal.png)
+![Installer running on XP Pro - Classic Theme](/blog-assets/xp-classic.png)
+![Installer running on Vista](/blog-assets/vista.png)
 
 Linux screenshots coming soon.
 
@@ -29,8 +32,6 @@ Now the files:
 	<li> <a href='http://blog.dmdirc.com/wp-content/uploads/2007/09/installersvn_2030.run.md5' title='Linux Pre-Release Installer MD5 checksum (SVN Revision: 2030)'>Linux Pre-Release Installer MD5 checksum (SVN Revision: 2030)</a></li>
 </ul>
 
-Clicking on "more" will go into more depth on how the installer(s) work.
-<!--more-->
 <span style="font-size: 10px; font-style: italic">This section of the post assumes you actually care about what I have to say about the installer and how it works. I care, and I would enjoy reading this, but most people probably won't. Don't read on if easily bored!</span>
 
 First off is the main portion of the installer: the Java code that actually does the installing. This is, of course, the same on all platforms (just enabling/disabling bits that are not appropriate for the platform, etc) and is a rather simple case of copying files from the temporary location they were extracted to, to the location the user wants them to be, followed by platform-specific code to create shortcuts to the files.

@@ -9,25 +9,32 @@ DMDirc 0.6.3m2 is the second milestone release since 0.6.1, and the first releas
 As this is the first release as part of the fixed release cycle, we weren't used to the limited timescale between releases and as such our usual 'quiet' period between releases had a much larger effect than it does normally. This means that we didn't get as many features into this release as we would have liked, but we still managed to squeeze a few in:
 
 <div class="nohomepage" style="clear: both;">&nbsp;</div>
-<img src="http://www.dmdirc.com/res/docs/0.6.3m2/textpane.png" class="alignleft nohomepage">
+
 <h3>Textpane font settings</h3>
+
+![Textpane](/blog-assets/textpane.png)
 
 One of our most requested improvements - you can now set both the font name and size of the text displayed in DMDirc's textpane. The options can be set globally, per-server or per-channel as usual.
 
-<div class="nohomepage" style="clear: both;">&nbsp;</div>
-<img src="http://www.dmdirc.com/res/docs/0.6.3m2/twitter.png" class="alignleft nohomepage">
 <h3>Alternate parsers (Twitter support)</h3>
 
+![Twitter](/blog-assets/twitter.png)
+
 DMDirc can now support different parsers in addition to our previous IRC parser. This means better or alternative IRC parsers can be developed in the future, or we can develop parsers to interact with completely different systems. As a proof of concept, we've developed a Twitter parser which allows you to read your Twitter news feed and post status updates direct from DMDirc!
+
 <div class="nohomepage" style="clear: both;">&nbsp;</div>
-<img src="http://www.dmdirc.com/res/docs/0.6.3m2/servernames.png" class="alignleft nohomepage">
+
 <h3>Configurable server names</h3>
+
+![Server Names](/blog-assets/servernames.png)
 
 You can now configure how DMDirc displays server names in the treeview and the titlebar. This means you can (for example) show your nickname along with the server name (useful if you often connect to the same server twice as different users), or show the network name instead of the server address (in case you use a bouncer to connect to multiple networks).
 
 <div class="nohomepage" style="clear: both;">&nbsp;</div>
-<img src="http://www.dmdirc.com/res/docs/0.6.3m2/licensepanel.png" class="alignleft nohomepage">
+
 <h3>License panel</h3>
+
+![License panel](/blog-assets/licensepanel.png)
 
 We've also tidied up the 'License' panel in the about dialog, to make it much clearer which components are covered by which license. This should make it easier for anyone interested in modifying DMDirc or reusing parts of it to see where they stand.
 
