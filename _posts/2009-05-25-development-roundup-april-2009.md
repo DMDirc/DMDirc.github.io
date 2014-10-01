@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Development roundup: April 2009"
+author: Chris Smith
+author_github: csmith
 ---
 April was a fairly slow month for the DMDirc developers. One of our biggest time sinks this month was fixing problems in the UI which appeared after we made some changes to improve thread safety. Throughout the month we had both major and minor issues related to window switching and maximising/restoring, some of which we're only just getting around to fixing now.
 

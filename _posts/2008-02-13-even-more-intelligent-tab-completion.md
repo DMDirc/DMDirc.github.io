@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Even more intelligent tab completion
+author: Chris Smith
+author_github: csmith
 ---
 In DMDirc 0.5 we introduced a feature described in the release notes as "intelligent tab completion for commands" (introduced in <a href="http://blog.dmdirc.com/2007/08/18/introducing-intelligent-command-completion/">this blog post</a>), which allowed commands to tell the tab completer about the arguments that they're expecting. In that incarnation, commands can specify a bunch of extra words to add, and can toggle whether the default tab completion targets (nicknames, channel names, command names) are used.
 

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Development roundup: June 2009"
+author: Chris Smith
+author_github: csmith
 ---
 Regular visitors to our blog may have noticed a lack of development roundups over the past few months. This was due to some non-DMDirc commitments/difficulties experienced by some of the developers. Never fear, though, we're now back and gearing up for DMDirc 0.6.3m2, which should be out on the 1st of November according to our <a href="http://blog.dmdirc.com/2009/07/05/improving-the-dmdirc-release-cycle/">release schedule</a>. We'll try to clear up the backlog of roundups over the next few days.
 

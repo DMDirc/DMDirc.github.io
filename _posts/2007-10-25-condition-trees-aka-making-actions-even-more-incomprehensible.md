@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Condition Trees (aka: making actions even more incomprehensible)"
+author: Chris Smith
+author_github: csmith
 ---
 I've just committed changes to DMDirc that allow you to make use of what I call "condition trees" in actions. These basically allow you to specify how conditions should be evaluated. In DMDirc 0.5.1 (and earlier), all action conditions had to be true in order for the action to be executed. Condition trees allow you to use any combination of AND, OR, NOT and brackets to alter this behaviour.
 

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Introducing the intelligent IRC client
+author: Chris Smith
+author_github: csmith
 ---
 If you're reading this via our website, you may have already noticed that DMDirc has undergone a small re-branding. We now use the tagline "the intelligent IRC client" across all the DMDirc sites (apart from the <a href="http://addons.dmdirc.com/">addons site</a> which is undergoing an overhaul — you can take a sneak peak at what it's going to be like over at the <a href="http://addons-dev.dmdirc.com/">development site</a>). This tagline has also found its way into the 'About' dialog in recent nightly builds.
 

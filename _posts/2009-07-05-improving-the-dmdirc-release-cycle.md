@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Improving the DMDirc release cycle
+author: Shane McCormack
+author_github: ShaneMcC
 ---
 Once again, we are looking at improving the DMDirc release cycle. First, a bit of history. When we first started with DMDirc back in 2007 we had very regular releases, but these have slowly started getting longer and longer:
 

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Actions UI improvements, part 2
+author: Greg Holmes
+author_github: greboid
 ---
 Further to the changes to the actions UI <a href="http://blog.dmdirc.com/2007/09/02/actions-ui-improvements-part-1/">previously mentioned</a>, there are now several more enhancements: one exposing substitutions and two UIs wrapping around actions simplifying common tasks &mdash; aliases and performs.
 

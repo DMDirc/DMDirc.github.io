@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Meet the developers
+author: Chris Smith
+author_github: csmith
 ---
 This is a brief introduction to DMDirc's developers.
 

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Releasing for lazy people
+author: Chris Smith
+author_github: csmith
 ---
 In preparation for DMDirc 0.6.3, we've just finished enhancing our release procedures considerably. Previously, a typical set of steps needed to release a version of DMDirc would be:
 

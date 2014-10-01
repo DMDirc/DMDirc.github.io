@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Development roundup: January 2009"
+author: Chris Smith
+author_github: csmith
 ---
 This is the first post in what will hopefully be a regular series of updates from the DMDirc developers, detailing what we've been up to on a month-by-month basis. Because of DMDirc's quite long release schedule, we have found that our communication on the blog is done in small bursts when a release is nearly ready, with very long gaps in between; hopefully these updates will help bridge that gap.
 

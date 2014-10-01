@@ -1,6 +1,8 @@
 ---
 layout: post
 title: DMDirc 0.5.5 Released
+author: Shane McCormack
+author_github: ShaneMcC
 ---
 We have just released version 0.5.5 of DMDirc.  This release is an interim release between 0.5.1 and 0.6 to get some important features of 0.6 in use in the stable version.
 

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "DMDirc 0.6: Preferences revamp"
+author: Chris Smith
+author_github: csmith
 ---
 The latest major change we've added to the 0.6 branch is a revamp of the preferences system. The original purpose of the revamp was to shift a large amount of logic out of the UI and into the main client core, so that if/when we have additional user interfaces written, they don't have to duplicate several hundred lines of code to produce a preferences dialog.
 

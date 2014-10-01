@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Improving the development process
+author: Shane McCormack
+author_github: ShaneMcC
 ---
 One of the things that makes DMDirc good (in my opinion) is that the three main developers actively use it pretty much all day, every day. We are all very, very heavy IRC users (unlike the author of mIRC for instance, who <a href="http://www.mirc.com/khaled/faq.html">admits to only occasionally using IRC</a>), which is what led to us [re]starting DMDirc development — when we all switched to Linux, we couldn't find an existing client that any of us really liked.
 

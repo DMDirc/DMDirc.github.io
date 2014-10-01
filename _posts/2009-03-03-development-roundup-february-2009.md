@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Development roundup: February 2009"
+author: Chris Smith
+author_github: csmith
 ---
 Welcome to the second instalment in our monthly series of development roundup blog posts. February was a much busier month for us than January, with quite a few major changes, and over 280 commits made to our git repository.
 

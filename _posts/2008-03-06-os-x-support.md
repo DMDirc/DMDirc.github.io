@@ -1,6 +1,8 @@
 ---
 layout: post
 title: OS X Support
+author: Shane McCormack
+author_github: ShaneMcC
 ---
 Now that Apple have re-released their 'developer preview' of Java 6, we can begin work on improving DMDirc's compatibility with OS X. Currently the release only works on 64-bit Intel processors (Xeons or Core2Duos - not CoreDuos, CoreSolos or PowerPCs) running Leopard. They had previously released a developer preview for Tiger, but we do not have access to it, so are unable to tell how well it works with DMDirc (if at all).
 
