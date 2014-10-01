@@ -4,7 +4,7 @@ title: Even more intelligent tab completion
 author: Chris Smith
 author_github: csmith
 ---
-In DMDirc 0.5 we introduced a feature described in the release notes as "intelligent tab completion for commands" (introduced in <a href="http://blog.dmdirc.com/2007/08/18/introducing-intelligent-command-completion/">this blog post</a>), which allowed commands to tell the tab completer about the arguments that they're expecting. In that incarnation, commands can specify a bunch of extra words to add, and can toggle whether the default tab completion targets (nicknames, channel names, command names) are used.
+In DMDirc 0.5 we introduced a feature described in the release notes as "intelligent tab completion for commands" (introduced in <a href="{% post_url 2007-08-18-introducing-intelligent-command-completion %}">this blog post</a>), which allowed commands to tell the tab completer about the arguments that they're expecting. In that incarnation, commands can specify a bunch of extra words to add, and can toggle whether the default tab completion targets (nicknames, channel names, command names) are used.
 
 In DMDirc 0.6, we've taken this one step further. Commands can now specify exactly what group(s) of targets should be used - so, for example, the first argument of the <code>/ctcp</code> command will now only tab complete to nicknames and channel names (but not command names, as it would have done in DMDirc 0.5).
 

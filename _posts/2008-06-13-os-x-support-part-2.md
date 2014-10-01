@@ -4,7 +4,7 @@ title: "OS X Support: Part 2"
 author: Shane McCormack
 author_github: ShaneMcC
 ---
-<a href="http://blog.dmdirc.com/2008/03/06/os-x-support/">As previously mentioned</a>, once Apple released Java6 for OS X I set about updating the scripts we use for building the installers and nightlies so that we could support OS X officially for DMDirc 0.6.
+<a href="{% post_url 2008-03-06-os-x-support %}">As previously mentioned</a>, once Apple released Java6 for OS X I set about updating the scripts we use for building the installers and nightlies so that we could support OS X officially for DMDirc 0.6.
 
 To do this we needed to be able to create a DMG file to distribute it in, and we wanted this to be done by our current build scripts. As you may be aware, we do all of our development on Ubuntu Linux (which we also use on the DMDirc build/web server) so our current build scripts are a bunch of bash scripts that build the various installers (.run files for Linux, and .exes for Windows).
 

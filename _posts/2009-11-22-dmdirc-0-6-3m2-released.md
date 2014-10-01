@@ -4,7 +4,7 @@ title: DMDirc 0.6.3m2 Released
 author: Shane McCormack
 author_github: ShaneMcC
 ---
-At the start of the month we quietly released DMDirc 0.6.3m2 as part of our new <a href="http://blog.dmdirc.com/2009/07/05/improving-the-dmdirc-release-cycle/">fixed release cycle</a>.
+At the start of the month we quietly released DMDirc 0.6.3m2 as part of our new <a href="{% post_url 2009-07-05-improving-the-dmdirc-release-cycle %}">fixed release cycle</a>.
 
 DMDirc 0.6.3m2 is the second milestone release since 0.6.1, and the first release we've made as part of the fixed cycle. It contains a large number of bug fixes and minor improvements.
 

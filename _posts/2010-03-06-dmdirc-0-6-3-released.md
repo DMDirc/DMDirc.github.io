@@ -4,7 +4,7 @@ title: DMDirc 0.6.3 released
 author: Chris Smith
 author_github: csmith
 ---
-We've just released DMDirc 0.6.3, which is our first release in 2010. From a development point of view, this release also marks the <a href="http://blog.dmdirc.com/2010/01/03/svn-deprecation/">end of our support for Subversion</a>. An overview of the changes included follows:
+We've just released DMDirc 0.6.3, which is our first release in 2010. From a development point of view, this release also marks the <a href="{% post_url 2010-01-03-svn-deprecation %}">end of our support for Subversion</a>. An overview of the changes included follows:
 
 <div class="nohomepage" style="clear: both;">&nbsp;</div>
 
