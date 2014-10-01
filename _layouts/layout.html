@@ -11,6 +11,10 @@
  <body>
   <div id="header">
    <h1>DMDirc</h1>
+   <ul>
+    <li{% if page.menu == 'overview' %} class="active"{% endif %}><a href="/"><span>Overview</span></a></li>
+    <li{% if page.menu == 'news' %} class="active"{% endif %}><a href="/news"><span>News</span></a></li>
+   </ul>
   </div>
 
   {{content}}
