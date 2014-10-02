@@ -4,10 +4,26 @@ title: News
 menu: news
 ---
 <h2>All news</h2>
-<ul>
- {% for post in site.posts %}
-  <li>
-   <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
+
+{% for post in site.posts %}
+
+<h3>{{ post.title }}</h3>
+
+<div class="author">
+ Posted by
+ <a href="https://github.com/{{ post.author_github }}">
+  <img src="/blog-assets/avatars/{{ post.author_github | downcase }}.jpg" alt="{{ post.author }}'s avatar">
+  {{ post.author }}
+ </a>
+ on {{ post.date | date: "%B %e, %Y" }}
+</div>
+
+<div class="content">
+ {{ post.excerpt }}
+</div>
+
+<div class="readmore">
+  <a href="{{ post.url }}">Read more »</a>
+</div>
+
+{% endfor %}
