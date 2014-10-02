@@ -1,11 +1,17 @@
 ---
 layout: layout
+menu: news
 ---
 
 <h2>{{ page.title }}</h2>
 
 <div class="author">
- By <a href="https://github.com/{{ page.author_github }}">{{ page.author }}</a>
+ Posted by
+ <a href="https://github.com/{{ page.author_github }}">
+  <img src="/blog-assets/avatars/{{ page.author_github | downcase }}.jpg" alt="{{ page.author }}'s avatar">
+  {{ page.author }}
+ </a>
+ on {{ page.date | date: "%B %e, %Y" }}
 </div>
 
 <div class="content">
