@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Introducing Gerrit
+author: Shane McCormack
+author_github: ShaneMcC
 ---
 For the past year, the ever-growing DMDirc code base has been managed using the Git version control system.  We still mirror our code to an SVN repository, and a couple of our automated tools still use the SVN version of things, but we're slowly and surely modifying, upgrading or scrapping these in favour of Git-based solutions.
 
