@@ -160,3 +160,29 @@ div.sidebarss {
  clear: both;
  padding-top: 20px;
 }
+
+.downloads {
+ list-style-type: none;
+}
+
+.downloads a {
+ font-size: large;
+ font-weight: bold;
+}
+
+.downloads .filename {
+ font-size: small;
+}
+
+.downloads p {
+ margin: 10px 0;
+}
+
+.downloads img {
+ float: left;
+}
+
+.downloads li {
+ clear: left;
+ padding: 20px;
+}
