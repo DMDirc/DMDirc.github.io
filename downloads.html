@@ -1,0 +1,70 @@
+---
+layout: layout
+title: Downloads
+menu: downloads
+---
+<h2>Downloads</h2>
+
+<p>The latest stable version of DMDirc is <strong>{{ site.versions.stable }}</strong>.
+DMDirc is available to download as both a platform-specific installer and a
+platform independent jar file:</p>
+
+<ul class="downloads">
+
+ <li>
+  <img src="/site-assets/downloads/windows.png" alt="Windows logo">
+  <a href="https://github.com/DMDirc/DMDirc/releases/download/{{ site.versions.stable }}/DMDirc-{{ site.versions.stable }}.exe">
+   Download the Windows installer
+  </a>
+  <p class="filename">DMDirc-{{ site.versions.stable }}.exe</p>
+  <p class="description">For Windows Vista, 7 and 8</p>
+ </li>
+
+ <li>
+  <img src="/site-assets/downloads/debian.png" alt="Linux logo">
+  <a href="https://github.com/DMDirc/DMDirc/releases/download/{{ site.versions.stable }}/DMDirc-{{ site.versions.stable }}.deb">
+   Download the Debian package
+  </a>
+  <p class="filename">DMDirc-{{ site.versions.stable }}.deb</p>
+  <p class="description">For Debian, Ubuntu, etc</p>
+ </li>
+
+ <li>
+  <img src="/site-assets/downloads/fedora.png" alt="Linux logo">
+  <a href="https://github.com/DMDirc/DMDirc/releases/download/{{ site.versions.stable }}/DMDirc-{{ site.versions.stable }}.rpm">
+   Download the RPM package
+  </a>
+  <p class="filename">DMDirc-{{ site.versions.stable }}.rpm</p>
+  <p class="description">For Red Hat, Fedora, etc</p>
+ </li>
+
+ <li>
+  <img src="/site-assets/downloads/osx.png" alt="OS X logo">
+  <a href="https://github.com/DMDirc/DMDirc/releases/download/{{ site.versions.stable }}/DMDirc-{{ site.versions.stable }}.dmg">
+   Download the OS X package
+  </a>
+  <p class="filename">DMDirc-{{ site.versions.stable }}.dmg</p>
+  <p class="description">For Mac OS X</p>
+ </li>
+
+ <li>
+  <img src="/site-assets/downloads/java.png" alt="Java logo">
+  <a href="https://github.com/DMDirc/DMDirc/releases/download/{{ site.versions.stable }}/DMDirc-{{ site.versions.stable }}.jar">
+   Download the Java archive
+  </a>
+  <p class="filename">DMDirc-{{ site.versions.stable }}.jar</p>
+  <p class="description">For advanced users, on any platform that supports Java</p>
+ </li>
+
+</ul>
+
+<h3>Apt repository</h3>
+
+<p>Users of Debian-based distros can also use our apt repository to stay up to date automatically:</p>
+
+<pre>
+    sudo wget http://www.dmdirc.com/apt/dmdirc.list -O /etc/apt/sources.list.d/dmdirc.list
+    wget -qO- http://www.dmdirc.com/apt/dmdirc.gpg.key | sudo apt-key add -
+    sudo apt-get update
+    sudo apt-get install dmdirc
+</pre>
