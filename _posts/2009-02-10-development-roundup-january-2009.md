@@ -10,18 +10,16 @@ January was a fairly slow month for us, with only 57 commits made to our collect
 
 Issues marked as fixed this month:
 
-<ul>
-	<li><a href="http://bugs.dmdirc.com/view/0001812">0001812: Expanding and collapsing treeview makes nicklist a stupid size</li>
-	<li><a href="http://bugs.dmdirc.com/view/0001874">0001874: Ctrl+c doesn't work as expected with find bar open</li>
-	<li><a href="http://bugs.dmdirc.com/view/0002017">0002017: Can load windows np sources on linux</li>
-	<li><a href="http://bugs.dmdirc.com/view/0002043">0002043: The arrows for collapsing/expanding the treeview/nicklist are ugly</li>
-	<li><a href="http://bugs.dmdirc.com/view/0002056">0002056: Line length calculations use char length not byte length</li>
-	<li><a href="http://bugs.dmdirc.com/view/0002057">0002057: java.lang.NullPointerException — Query.getMaxLineLength(Query.java:167)</li>
-	<li><a href="http://bugs.dmdirc.com/view/0002066">0002066: text can be sent twice by very quick repetitions of the enter key (and im sure awful pcs!)</li>
-	<li><a href="http://bugs.dmdirc.com/view/0002067">0002067: alias dialog edit panel not 100% width</li>
-	<li><a href="http://bugs.dmdirc.com/view/0002070">0002070: UI line splitting needs to use bytes not chars</li>
-	<li><a href="http://bugs.dmdirc.com/view/0002071">0002071: java.lang.StringIndexOutOfBoundsException: String index out of range: 460</a></li>
-</ul>
+ * <a href="http://bugs.dmdirc.com/view/0001812">0001812: Expanding and collapsing treeview makes nicklist a stupid size
+ * <a href="http://bugs.dmdirc.com/view/0001874">0001874: Ctrl+c doesn't work as expected with find bar open
+ * <a href="http://bugs.dmdirc.com/view/0002017">0002017: Can load windows np sources on linux
+ * <a href="http://bugs.dmdirc.com/view/0002043">0002043: The arrows for collapsing/expanding the treeview/nicklist are ugly
+ * <a href="http://bugs.dmdirc.com/view/0002056">0002056: Line length calculations use char length not byte length
+ * <a href="http://bugs.dmdirc.com/view/0002057">0002057: java.lang.NullPointerException — Query.getMaxLineLength(Query.java:167)
+ * <a href="http://bugs.dmdirc.com/view/0002066">0002066: text can be sent twice by very quick repetitions of the enter key (and im sure awful pcs!)
+ * <a href="http://bugs.dmdirc.com/view/0002067">0002067: alias dialog edit panel not 100% width
+ * <a href="http://bugs.dmdirc.com/view/0002070">0002070: UI line splitting needs to use bytes not chars
+ * <a href="http://bugs.dmdirc.com/view/0002071">0002071: java.lang.StringIndexOutOfBoundsException: String index out of range: 460</a>
 
 February is already shaping up to be a much busier month, with the number of commits made almost double that of January already. Major changes so far include the finishing touches of the reworked preferences dialog, a huge change in the way that the user interface interfaces with the client, and a number of changes to the plugin system. Details of all of these will be in next month's roundup.
 
