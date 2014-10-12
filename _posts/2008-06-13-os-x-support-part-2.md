@@ -87,13 +87,12 @@ However I recently discovered a much tidier method, which we now use. <code>mkis
 </pre>
 
 This code has the advantages of:
-<ul>
-	<li>being much tidier than the old code,
-	<li>not requiring a loop to get a correctly-sized image,
-	<li>being able to bless the image,
-	<li>creating a read-only image, and
-	<li>not requiring a patched version of Apple's <code>diskdev-cmds</code>
-</ul>
+
+ * being much tidier than the old code,
+ * not requiring a loop to get a correctly-sized image,
+ * being able to bless the image,
+ * creating a read-only image, and
+ * not requiring a patched version of Apple's <code>diskdev-cmds</code>
 
 All that was left now was to fix the file size (which was still 3.8 mb). To do this, I found a new project (<a href="http://github.com/planetbeing/libdmg-hfsplus"><code>libdmg-hfsplus</code></a>) which is a DMG manipulation library for Linux capable of producing compressed DMG files. I jumped at this, downloaded and compiled it, and came up with:
 <pre>
