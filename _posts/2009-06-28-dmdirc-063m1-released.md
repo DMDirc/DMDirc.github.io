@@ -6,17 +6,15 @@ author_github: ShaneMcC
 ---
 After nearly a year, we have just released DMDirc 0.6.3m1, with over 1000 commits resulting in <a href="http://wiki.dmdirc.com/documentation:changelogs:0.6.3m1">over 200</a> feature additions, bug fixes and other changes, including:
 
-<ul>
-<li>A redesign of the preferences dialog
-<li>Improved support for SSL certficates (both client and server)
-<li>Support for SOCKS proxies
-<li>Ability to automatically restart the client after installing updates
-<li>Ability for plugins to specify 'services' that they provide/require.
-<li>Ability for plugins to export (share) methods with each other
-<li>Improved MDI support
-<li>A more robust DCC plugin
-<li>Moving of the UI to a plugin, allowing for it to be updated separately from the main client
-</ul>
+* A redesign of the preferences dialog
+* Improved support for SSL certficates (both client and server)
+* Support for SOCKS proxies
+* Ability to automatically restart the client after installing updates
+* Ability for plugins to specify 'services' that they provide/require.
+* Ability for plugins to export (share) methods with each other
+* Improved MDI support
+* A more robust DCC plugin
+* Moving of the UI to a plugin, allowing for it to be updated separately from the main client
 
 DMDirc 0.6.3m1 is one of our "milestone" releases of the 0.6.3 branch. These milestone releases were a (somewhat failed) attempt to release more often than we have in the past. We periodically decide to stop working on any new features and tidy up the current code-base into a release-ready state to allow users of the stable branch of the client to get some of the new features and fixes we have added sooner than having to wait for a full major release. It's taken us almost a year to get to 0.6.3m1, so imagine how long it'd take if we went straight to 0.6.3 itself (which is approximately two milestones away)!
 
