@@ -8,7 +8,7 @@ https://keybase.io/cjsmith
 
 I hereby claim:
 
-  * I am an admin of http://www.dmdirc.com
+  * I am an admin of https://www.dmdirc.com
   * I am cjsmith (https://keybase.io/cjsmith) on keybase.
   * I have a public key with fingerprint AB4D D2F3 64FB 6B4B AAB2  873F D736 7BB8 25DD A717
 
@@ -28,21 +28,21 @@ To claim this, I am signing this object:
             "username": "cjsmith"
         },
         "merkle_root": {
-            "ctime": 1410900226,
-            "hash": "2a049fb86113b8a56894eb7ad5ed9c850fa51dd7153ee8c99ebb2a30fdd523e7ffa1aeaf65529b90ec951143280226c22651345d95589a022233de4901101a24",
-            "seqno": 49032
+            "ctime": 1416265060,
+            "hash": "02d1986ab4b4ad8881832b0b4fe22ae9692c4939e06b5b4d2e68ae5bf788786c3b51e3abd8b8b7319b4e28cc048f5f01dc76ce688475a55615bb78db81e18841",
+            "seqno": 96337
         },
         "service": {
             "hostname": "www.dmdirc.com",
-            "protocol": "http:"
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1410900998,
+    "ctime": 1416265245,
     "expire_in": 157680000,
-    "prev": "865b5467cf8c535ac9bb0e29b80682bfc268e60db46284ec702358887bb0c172",
-    "seqno": 12,
+    "prev": "809ba6830394bc6e745a3edbbf13ea6d389786539d855f38e222641164738722",
+    "seqno": 14,
     "tag": "signature"
 }
 
@@ -51,25 +51,25 @@ with the aforementioned key, yielding the PGP signature:
 -----BEGIN PGP MESSAGE-----
 Version: GnuPG v1
 
-owFVkm1oHEUYxy9pWkltVSglkVYJiy9Uw3VedmZnrynEcB9aRNRitdTCOW+b2yZ3
-u93dJBfPVNAc1YAo+HKUpBhpbVXQgkhJmw+mtPhBU6sUWrEp0dKKbx9aQkxAEGdj
-RDuwMPvM7/k/z3/meWPtikxjwyVanbj/yrGWhq9+EZmnWo+sqloiUINWrmrJXl+X
-k3RX5iVt5awePSh4rLN+0FYOlM7ujduWmXarX0exH5QNBbIkC62h9hRPkz2/3K2j
-MPJTLYsLWynkYWp7ggpbcC4Qc7CnHEwdIRgiSnEHOkayGMTJLVWtJc2Cr0w0n/Jd
-XYbP5x/5h+9bOlBYQi24RBzYHgUUQYCgh7DESjgEgBSMdbRsSe6NS35STNst6ain
-VxeiIFjyLBM/JaANgQsAQtQ0xOOiyUmVXU8wCiEWjBPKXFsLhyuilSsZAR4nUCkH
-Eqw1k66rhUAcA08pgrB2PI9DrrlHCUGucIGWLoHQxoilZaT5CMQ2US4hzOUmhjBW
-2nYBhAByZBsHsd5XDqyciWE0lP5G/b7UadvppS17GxgYyKqS8iOZlUHJZIVRkAQy
-6DVnxSQJc6nrZDBcYrUofLIsUxB+WZlH+/+rQoPeeiOuy9otXQn9SBf8lCAOZcCs
-tI7uN5qMEkFs6kiPSYIJl64QQBvLDFCGhCcRZZoCJWyKmK2lAxAmjDEzBkBCB/3n
-EyLTKO82mrHfXeZJX6StoVcbNjZlGhozq1Y2pnObWd1817/DPDl9219wrDpyinWs
-zh/aunbN5R1T54Zv9lxsumNbt/phcorMf3bjiXf3u0crmzsfPVmdXZy7NnzymwuP
-b1i3c6Ry9fyJVv/0vTe3PL3Y8o6VH/3+4d3svrNvPxiTh0bC/I8f19rGf9r+6caX
-Xl7suXZwurLtxO9vbZoflmfmv61Ptnfm6+MzndW7rzz52OwoPlRrGXt+7PCe126f
-Cz9Y//muO1/5cqDvoyMTD7QePFerfb0w0lyYWlhRfPPXP/fMLYxvmFzf0bF7f3Jp
-8wsH1n2Yq/2xr/+7F89vOb11pn789dmjB3bCG/mJ5l07Tj1XB1/8PP1bi1+cqXdM
-dDWF97zvr1l5eeaZ47OF68+Gg5X3to/+DQ==
-=qq5d
+owFVkl1oHFUUxze7prWiJS2a0GJrnNavumzmfs6dFYLW+IWKWFsftLjer8lOkp2Z
+zEw3DdstVazow4oStWC1BRH7ILL4AZZapT6IYrEgJg21KkV9aEWqVZEUmsQ7MaK9
+T/fe8zv/e/7n3OevKOTyHdO0cfC67w70dBw9I3Kbh3auaVgiVONWuWHJEV8HabYL
+eE1bZWtYjwue6JIf9gah0qWhpHeRKVp1HSd+GBjKLpESsJrFDM+SPT8Y1HEU+5mW
+xQVWCnqIYk9QgQXnAjIHecpB1BGCQaIUd4BjJKthkl70qrWgWfGVuR3I+I0bDT8w
+cNs//LaFgEISaMEl5Db2qE0hsCHwIJJICYfYdgYmOl60JIeSmp9Ws3JrOh4e0ZU4
+DBc8y9TPCIABhZTY1DYF8aSaGYQKuIwaJwJzxRgDDEFhC+xpCLl2qQsldpGrbSqI
+sQs1ZVwT4TmMOYxKJAjQiAvFBBMOAq7AGjIpbcw84tlASYdKk8OwQzghFBAhHKYE
+AxqYS2AcJHo0CK2ySxFymtkxrvtSZ2VnTVv0NjY2VlI15ceyJMOayYriMA1lOGJi
+1TSNknJmOx2PFmAt2pVFnYrwA2Wm9v+xAoNe3BKISdHS2yM/1hU/I4hDmW1W9pCu
+G01mu4JThmzkYiGpdjDhSCshPIA0pwox1/SDIFcxQjzETPsgxQBQ7CDmQPifUYBN
+oXzQaCb+YMDTbbG2ms92XH1JriOfW9KZzz5u7rJlXf/+5tneS3MT9v1P3jQ3096w
+5I5CPffi4YFDZTL1yYedX56/N/lLnT/ROrF+9PU3i5PVUz3H19VWdnfeV5h656O5
+d3fvO/fUzp5dB1bOfNN1d/+Py3cUPj/y/m+fdb0WXNh39PgTez/Y/crh7V+sWhHd
+1bXjltVBY9Ok//UM7765sOyNt9iKk+1fzjx2Wj03sf69l8+2f3XPvf3zw6y99fuX
++lUwCfOP7G/NXn/r4/MT5PI/9vw0v+XTKJ8uXdv/VV/f/l0PXfXxgz8ce+Db4acP
+Ld8zt2HtC61V9wyN1re21oyv06fOnp5+9ZlW/uSVfbNHbpzedE305+b537c0l97e
+6G7dQJvDlb13eseKvDJ1ML6wOrr2Ufg3
+=svnG
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or

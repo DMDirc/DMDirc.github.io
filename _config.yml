@@ -5,3 +5,5 @@ versions:
   stable: 0.8.1
 gems:
   - jekyll-redirect-from
+include:
+  - .well-known
