@@ -33,6 +33,10 @@ h2 {
  border-bottom: 2px solid #ccc;
 }
 
+h2 .rss {
+ float: right;
+}
+
 #header ul {
  float: right;
  height: 50px;

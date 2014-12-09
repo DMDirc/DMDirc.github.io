@@ -1,9 +1,14 @@
 ---
 layout: layout
 title: News
+rss: true
 menu: news
 ---
-<h2>All news</h2>
+<h2>
+ All news
+
+ <a href="/feed.xml" title="View RSS feed" class="rss"><img src="/site-assets/feed-icon-14x14.png" alt="RSS feed icon"></a>
+</h2>
 
 {% for post in site.posts %}
 
