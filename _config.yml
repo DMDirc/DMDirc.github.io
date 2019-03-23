@@ -3,7 +3,7 @@ encoding: utf-8
 url: https://dmdirc.github.io
 versions:
   stable: 0.8.1
-  unstable: 19.03.01
+  unstable: 19.03.02
 gems:
   - jekyll-redirect-from
 include:
